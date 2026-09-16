@@ -1,8 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
+  BookOpen,
   CheckCircle2,
+  ChevronLeft,
   ChevronRight,
   Clock3,
+  Eye,
   Flame,
   Fullscreen,
   Medal,
@@ -15,6 +18,7 @@ import {
   XCircle,
 } from 'lucide-react'
 import bank from './data/questionBank.json'
+import { correctIndexesFor, isExactSelection } from './selection'
 
 const ROUND_CONFIG = [
   { key: 'easy', name: 'Khởi động', count: 10, color: '#f3c75f' },
@@ -63,28 +67,6 @@ function buildSets() {
     })
     return { id: setIndex + 1, questions }
   })
-}
-
-function normalize(text = '') {
-  return text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/đ/g, 'd')
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-}
-
-function autoGrade(input, answer) {
-  const user = normalize(input)
-  const target = normalize(answer)
-  if (!user) return false
-  if (user === target) return true
-  if (target.length <= 14) return target.includes(user) || user.includes(target)
-  const targetTokens = [...new Set(target.split(' ').filter((w) => w.length > 2))]
-  const userTokens = new Set(user.split(' '))
-  const hits = targetTokens.filter((word) => userTokens.has(word)).length
-  return hits >= Math.max(2, Math.ceil(targetTokens.length * 0.72))
 }
 
 function currentRound(questionIndex) {
@@ -155,7 +137,10 @@ function StartScreen({ setIndex, setCount, coverage, best, onStart }) {
             <Play size={20} fill="currentColor" /> Luyện đủ 23 câu
           </button>
           <button className="secondary-button" onClick={() => onStart('exam')}>
-            <Trophy size={20} /> Thi thật: sai là dừng
+            <Trophy size={20} /> Thi thử đủ 23 câu
+          </button>
+          <button className="secondary-button review-mode-button" onClick={() => onStart('review')}>
+            <BookOpen size={20} /> Ôn toàn bộ {bank.questions.length} câu
           </button>
         </div>
         <p className="audit-note">Câu hỏi sai trong PowerPoint gốc đã được sửa theo tài liệu audit mới nhất.</p>
@@ -164,9 +149,9 @@ function StartScreen({ setIndex, setCount, coverage, best, onStart }) {
   )
 }
 
-function ResultScreen({ score, answered, setNumber, totalSets, wrong, mode, onNextSet }) {
+function ResultScreen({ score, answered, setNumber, totalSets, wrong, onNextSet }) {
   const percent = Math.round((score / Math.max(1, answered)) * 100)
-  const title = mode === 'exam' && wrong ? 'Tạm dừng tại đây' : score >= 21 ? 'Sẵn sàng tranh giải!' : score >= 17 ? 'Nền tảng rất khá' : 'Tiếp tục khóa lỗi'
+  const title = score >= 21 ? 'Sẵn sàng tranh giải!' : score >= 17 ? 'Nền tảng rất khá' : 'Tiếp tục khóa lỗi'
   return (
     <main className="screen result-screen">
       <section className="result-card">
@@ -199,33 +184,36 @@ export default function App() {
   const [seconds, setSeconds] = useState(15)
   const [paused, setPaused] = useState(false)
   const [sound, setSound] = useState(true)
-  const [selected, setSelected] = useState(null)
-  const [input, setInput] = useState('')
+  const [selected, setSelected] = useState([])
   const [feedback, setFeedback] = useState(null)
+  const [responses, setResponses] = useState({})
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
   const [wrong, setWrong] = useState([])
   const [best, setBest] = useState(Number(localStorage.getItem(STORAGE.best) || 0))
   const beep = useBeep(sound)
   const activeSet = sets[setIndex]
-  const question = activeSet.questions[questionIndex]
-  const round = currentRound(questionIndex)
+  const activeQuestions = mode === 'review' ? bank.questions : activeSet.questions
+  const totalQuestions = activeQuestions.length
+  const question = activeQuestions[questionIndex]
+  const correctIndexes = correctIndexesFor(question)
+  const round = mode === 'review'
+    ? ROUND_CONFIG.find((item) => item.key === question.difficulty) || ROUND_CONFIG[0]
+    : currentRound(questionIndex)
   const seen = JSON.parse(localStorage.getItem(STORAGE.seen) || '[]')
   const coverage = Math.min(100, Math.round((new Set(seen).size / bank.questions.length) * 100))
 
   const finish = (nextWrong = wrong, nextScore = score) => {
-    const answered = mode === 'exam' && nextWrong.length ? questionIndex + 1 : 23
     setScreen('result')
     if (nextScore > best) {
       setBest(nextScore)
       localStorage.setItem(STORAGE.best, String(nextScore))
     }
     setPaused(false)
-    return answered
   }
 
-  const markAnswer = (correct, userAnswer = '') => {
-    if (feedback) return
+  const markAnswer = (correct, userAnswer = '', selectedIndexes = []) => {
+    if (feedback || responses[question.id]) return
     const nextWrong = correct ? wrong : [...wrong, question]
     if (correct) {
       setScore((value) => value + 1)
@@ -237,19 +225,23 @@ export default function App() {
       beep('wrong')
     }
     setFeedback({ correct, userAnswer })
+    setResponses((current) => ({
+      ...current,
+      [question.id]: { correct, userAnswer, selected: selectedIndexes },
+    }))
     const updatedSeen = [...new Set([...seen, question.id])]
     localStorage.setItem(STORAGE.seen, JSON.stringify(updatedSeen))
   }
 
   useEffect(() => {
-    if (screen !== 'game' || paused || feedback) return undefined
+    if (screen !== 'game' || mode === 'review' || paused || feedback) return undefined
     if (seconds <= 0) {
-      markAnswer(false, 'Hết giờ')
+      markAnswer(false, 'Hết giờ', selected)
       return undefined
     }
     const timer = window.setTimeout(() => setSeconds((value) => value - 1), 1000)
     return () => window.clearTimeout(timer)
-  }, [screen, paused, feedback, seconds])
+  }, [screen, mode, paused, feedback, seconds])
 
   const start = (selectedMode) => {
     setMode(selectedMode)
@@ -258,39 +250,89 @@ export default function App() {
     setScore(0)
     setStreak(0)
     setWrong([])
+    setResponses({})
     setFeedback(null)
-    setInput('')
-    setSelected(null)
+    setSelected([])
     setScreen('game')
   }
 
   const choose = (index) => {
     if (feedback || paused) return
-    setSelected(index)
-    markAnswer(index === question.correct, question.options[index])
+    if (question.selectionMode === 'multiple') {
+      setSelected((current) => current.includes(index)
+        ? current.filter((value) => value !== index)
+        : [...current, index])
+      return
+    }
+    const selectedIndexes = [index]
+    setSelected(selectedIndexes)
+    if (mode === 'review') {
+      setFeedback({ correct: index === question.correct, userAnswer: question.options[index], review: true })
+      return
+    }
+    markAnswer(index === question.correct, question.options[index], selectedIndexes)
   }
 
-  const submitText = (event) => {
-    event.preventDefault()
-    if (!input.trim()) return
-    markAnswer(autoGrade(input, question.answer), input.trim())
+  const submitMultiple = () => {
+    if (feedback || paused || selected.length === 0) return
+    const selectedSorted = [...selected].sort((a, b) => a - b)
+    const correct = isExactSelection(selectedSorted, correctIndexes)
+    const userAnswer = selectedSorted.map((index) => question.options[index]).join('; ')
+    if (mode === 'review') {
+      setFeedback({ correct, userAnswer, review: true })
+      return
+    }
+    markAnswer(correct, userAnswer, selectedSorted)
+  }
+
+  const goToQuestion = (nextIndex) => {
+    const boundedIndex = Math.max(0, Math.min(totalQuestions - 1, nextIndex))
+    if (boundedIndex === questionIndex) return
+    const nextQuestion = activeQuestions[boundedIndex]
+    const saved = mode === 'review' ? null : responses[nextQuestion.id]
+    setQuestionIndex(boundedIndex)
+    setSeconds(15)
+    setSelected(saved?.selected ?? [])
+    setFeedback(saved ? { correct: saved.correct, userAnswer: saved.userAnswer } : null)
+  }
+
+  const revealAnswer = () => {
+    if (mode !== 'review' || feedback) return
+    setFeedback({ correct: null, userAnswer: '', review: true, revealed: true })
+    const updatedSeen = [...new Set([...seen, question.id])]
+    localStorage.setItem(STORAGE.seen, JSON.stringify(updatedSeen))
   }
 
   const next = () => {
-    if (mode === 'exam' && feedback && !feedback.correct) {
+    if (mode === 'review') {
+      goToQuestion(questionIndex + 1)
+      return
+    }
+    if (questionIndex >= totalQuestions - 1) {
       finish(wrong, score)
       return
     }
-    if (questionIndex >= 22) {
-      finish(wrong, score)
-      return
-    }
-    setQuestionIndex((value) => value + 1)
-    setSeconds(15)
-    setSelected(null)
-    setInput('')
-    setFeedback(null)
+    goToQuestion(questionIndex + 1)
   }
+
+  useEffect(() => {
+    if (screen !== 'game') return undefined
+    const handleKeyDown = (event) => {
+      const tagName = event.target?.tagName
+      if (tagName === 'INPUT' || tagName === 'TEXTAREA' || tagName === 'SELECT') return
+      if (event.key === 'ArrowLeft') {
+        event.preventDefault()
+        goToQuestion(questionIndex - 1)
+      }
+      if (event.key === 'ArrowRight') {
+        event.preventDefault()
+        if (questionIndex < totalQuestions - 1) goToQuestion(questionIndex + 1)
+        else if (mode !== 'review' && feedback) finish(wrong, score)
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [screen, mode, questionIndex, totalQuestions, feedback, responses, wrong, score])
 
   const nextSet = () => {
     const newIndex = (setIndex + 1) % sets.length
@@ -311,11 +353,10 @@ export default function App() {
     return (
       <ResultScreen
         score={score}
-        answered={mode === 'exam' && wrong.length ? questionIndex + 1 : 23}
+        answered={23}
         setNumber={setIndex + 1}
         totalSets={sets.length}
         wrong={wrong}
-        mode={mode}
         onNextSet={nextSet}
       />
     )
@@ -325,71 +366,92 @@ export default function App() {
     <main className="screen game-screen">
       <header className="game-header">
         <div className="brand"><Sparkles size={20} /><div><strong>HOA TRẠNG NGUYÊN</strong><span>Văn Miếu – Quốc Tử Giám</span></div></div>
-        <RoundRail questionIndex={questionIndex} />
-        <div className="set-label">Bộ đề {String(setIndex + 1).padStart(2, '0')}/{sets.length}</div>
+        {mode === 'review' ? (
+          <div className="review-progress"><BookOpen size={18} /> Dùng phím ← → để duyệt toàn bộ ngân hàng</div>
+        ) : (
+          <RoundRail questionIndex={questionIndex} />
+        )}
+        <div className="set-label">{mode === 'review' ? `Ngân hàng ${totalQuestions} câu` : `Bộ đề ${String(setIndex + 1).padStart(2, '0')}/${sets.length}`}</div>
       </header>
 
       <section className="quiz-shell">
         <div className="status-row">
           <div className="category"><span style={{ background: round.color }} />{round.name} · {question.category}</div>
-          <div className="hud">
+          {mode !== 'review' && <div className="hud">
             <span><Trophy size={16} /> {score}</span>
             <span><Flame size={16} /> {streak}</span>
-          </div>
+          </div>}
         </div>
 
         <div className="question-panel">
-          <span className="question-number">Câu {questionIndex + 1}/23</span>
+          <span className="question-number">Câu {questionIndex + 1}/{totalQuestions}</span>
           <h2>{question.prompt}</h2>
         </div>
 
-        <div className="timer-row">
+        {mode !== 'review' && <div className="timer-row">
           <div className={`timer-dial ${seconds <= 5 ? 'urgent' : ''}`}><Clock3 size={21} /><strong>{seconds}</strong><small>giây</small></div>
           <div className="timer-track"><span style={{ width: `${(seconds / 15) * 100}%` }} /></div>
+        </div>}
+
+        {mode === 'review' && (
+          <div className="review-toolbar" aria-label="Điều hướng ôn toàn bộ câu hỏi">
+            <button onClick={() => goToQuestion(questionIndex - 1)} disabled={questionIndex === 0}>
+              <ChevronLeft size={18} /> Câu trước
+            </button>
+            <button className="reveal-button" onClick={revealAnswer} disabled={Boolean(feedback)}>
+              <Eye size={18} /> Mở đáp án đúng
+            </button>
+            <button onClick={() => goToQuestion(questionIndex + 1)} disabled={questionIndex === totalQuestions - 1}>
+              Câu sau <ChevronRight size={18} />
+            </button>
+          </div>
+        )}
+
+        <div className="answers-grid">
+          {question.options.map((option, index) => {
+            const isSelected = selected.includes(index)
+            const isCorrect = feedback && correctIndexes.includes(index)
+            const isWrong = feedback && isSelected && !correctIndexes.includes(index)
+            return (
+              <button
+                key={`${question.id}-${index}`}
+                className={`answer-button ${isSelected && !feedback ? 'selected' : ''} ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`}
+                aria-pressed={isSelected}
+                onClick={() => choose(index)}
+                disabled={Boolean(feedback) || paused}
+              >
+                <span>{String.fromCharCode(65 + index)}</span><strong>{option}</strong>
+              </button>
+            )
+          })}
         </div>
 
-        {question.type === 'choice' ? (
-          <div className="answers-grid">
-            {question.options.map((option, index) => {
-              const isCorrect = feedback && index === question.correct
-              const isWrong = feedback && selected === index && index !== question.correct
-              return (
-                <button
-                  key={`${question.id}-${index}`}
-                  className={`answer-button ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`}
-                  onClick={() => choose(index)}
-                  disabled={Boolean(feedback) || paused}
-                >
-                  <span>{String.fromCharCode(65 + index)}</span><strong>{option}</strong>
-                </button>
-              )
-            })}
+        {question.selectionMode === 'multiple' && !feedback && (
+          <div className="multiple-answer-actions">
+            <span>Chọn tất cả đáp án đúng rồi bấm chốt.</span>
+            <button onClick={submitMultiple} disabled={selected.length === 0 || paused}>
+              Chốt {selected.length > 0 ? `${selected.length} đáp án` : 'đáp án'}
+            </button>
           </div>
-        ) : (
-          <form className="text-answer" onSubmit={submitText}>
-            <label htmlFor="answer">Viết đáp án ngắn gọn</label>
-            <div>
-              <input id="answer" value={input} onChange={(e) => setInput(e.target.value)} disabled={Boolean(feedback) || paused} autoFocus autoComplete="off" />
-              <button type="submit" disabled={!input.trim() || Boolean(feedback) || paused}>Chốt đáp án</button>
-            </div>
-          </form>
         )}
 
         {feedback && (
-          <div className={`feedback ${feedback.correct ? 'is-correct' : 'is-wrong'}`} role="status">
-            {feedback.correct ? <CheckCircle2 size={24} /> : <XCircle size={24} />}
+          <div className={`feedback ${feedback.revealed ? 'is-revealed' : feedback.correct ? 'is-correct' : 'is-wrong'}`} role="status">
+            {feedback.revealed ? <Eye size={24} /> : feedback.correct ? <CheckCircle2 size={24} /> : <XCircle size={24} />}
             <div>
-              <strong>{feedback.correct ? 'Chính xác!' : seconds === 0 ? 'Hết 15 giây' : 'Chưa chính xác'}</strong>
+              <strong>{feedback.revealed ? 'Đáp án đúng' : feedback.correct ? 'Chính xác!' : seconds === 0 && mode !== 'review' ? 'Hết 15 giây' : 'Chưa chính xác'}</strong>
               <span>Đáp án chuẩn: {question.answer}</span>
               {question.explanation && <small>{question.explanation}</small>}
             </div>
-            <button onClick={next}>{mode === 'exam' && !feedback.correct ? 'Xem kết quả' : questionIndex === 22 ? 'Hoàn thành' : 'Câu tiếp'} <ChevronRight size={18} /></button>
+            {!(mode === 'review' && questionIndex === totalQuestions - 1) && (
+              <button onClick={next}>{mode === 'review' ? 'Câu tiếp' : questionIndex === totalQuestions - 1 ? 'Hoàn thành' : 'Câu tiếp'} <ChevronRight size={18} /></button>
+            )}
           </div>
         )}
       </section>
 
       <footer className="game-footer">
-        <span>{mode === 'practice' ? 'Luyện tập: chơi đủ 23 câu' : 'Thi thật: trả lời sai sẽ dừng'}</span>
+        <span>{mode === 'review' ? 'Ôn toàn bộ: ← câu trước · → câu sau · mở đáp án bất kỳ lúc nào' : '← câu trước · → câu sau · trả lời sai vẫn tiếp tục đến hết 23 câu'}</span>
         <div>
           <button aria-label={sound ? 'Tắt âm thanh' : 'Bật âm thanh'} onClick={() => setSound((value) => !value)}>{sound ? <Volume2 /> : <VolumeX />}</button>
           <button aria-label={paused ? 'Tiếp tục' : 'Tạm dừng'} onClick={() => setPaused((value) => !value)}>{paused ? <Play /> : <Pause />}</button>

@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "audit": "node scripts/audit-game.mjs",
+    "test": "npm run audit && npm run build"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

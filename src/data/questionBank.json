@@ -7,7 +7,20 @@
       "medium": 8,
       "hard": 5
     },
-    "auditNote": "Hai câu sai trong PPTX đã được sửa: Nhâm Tuất 1442 dưới vua Lê Thái Tông; khoa Nho học cuối cùng năm 1919 diễn ra tại Huế."
+    "auditedAt": "2026-09-16",
+    "auditNote": "Đã rà 234/234 câu theo nguồn chính thức; toàn bộ được chuẩn hóa thành câu hỏi chọn một hoặc nhiều trong 4 đáp án; sửa cách gọi Bái Đường/Điện Đại Thành, chuẩn hóa Khuê Văn Các có 2 tầng mái và làm rõ mốc hồ sơ UNESCO 2010/2011.",
+    "officialSources": [
+      "https://vanmieu.gov.vn/vi/introduction/site-history",
+      "https://vanmieu.gov.vn/vi/introduction/areas/inner-temple",
+      "https://vanmieu.gov.vn/vi/visit/architecture/khue-van-pavilion",
+      "https://vanmieu.gov.vn/vi/visit/architecture/dien-dai-thanh",
+      "https://vanmieu.gov.vn/vi/visit/architecture/thai-hoc-house",
+      "https://vanmieu.gov.vn/vi/visit/doctoral-stelae",
+      "https://vanmieu.gov.vn/vi/visit/notable-figures/chu-van-an",
+      "https://vanmieu.gov.vn/vi/visit/notable-figures/four-sages",
+      "https://www.unesco.org/en/memory-world/stone-stele-records-royal-examinations-le-and-mac-dynasties-1442-1779",
+      "https://hue.gov.vn/Du-khach/Thong-tin-du-khach/Kham-pha-Hue/tb/Tu-nam-1885-den-nam-1945-213018"
+    ]
   },
   "questions": [
     {
@@ -17,7 +30,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1070",
+        "82 bia",
+        "1076",
+        "1075"
+      ],
+      "correct": 0
     },
     {
       "id": "q002",
@@ -26,7 +47,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Khổng Tử và các bậc Tiên Hiền, Tiên Nho",
+        "Vua Lê Thánh Tông",
+        "Vua Lý Nhân Tông",
+        "Vua Lý Thánh Tông"
+      ],
+      "correct": 3
     },
     {
       "id": "q003",
@@ -35,7 +64,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1070",
+        "1076",
+        "82 bia",
+        "1075"
+      ],
+      "correct": 3
     },
     {
       "id": "q004",
@@ -44,7 +81,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1075",
+        "1070",
+        "82 bia",
+        "1076"
+      ],
+      "correct": 3
     },
     {
       "id": "q005",
@@ -53,7 +98,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Khổng Tử và các bậc Tiên Hiền, Tiên Nho",
+        "Vua Lý Nhân Tông",
+        "Vua Lý Thánh Tông",
+        "Vua Lê Thánh Tông"
+      ],
+      "correct": 1
     },
     {
       "id": "q006",
@@ -62,7 +115,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Vua Lý Thánh Tông",
+        "Vua Lý Nhân Tông",
+        "Vua Lê Thánh Tông",
+        "Khổng Tử và các bậc Tiên Hiền, Tiên Nho"
+      ],
+      "correct": 3
     },
     {
       "id": "q007",
@@ -71,7 +132,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Trung tâm đào tạo cao cấp nhất Việt Nam thời quân chủ",
+        "Những người đỗ các khoa thi Tiến sĩ được ghi trên bia",
+        "Thời Trần",
+        "Càn Đức"
+      ],
+      "correct": 3
     },
     {
       "id": "q008",
@@ -80,7 +149,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Vua Lê Thánh Tông",
+        "Vua Lý Thánh Tông",
+        "Lý Nhân Tông",
+        "Khổng Tử và các bậc Tiên Hiền, Tiên Nho"
+      ],
+      "correct": 2
     },
     {
       "id": "q009",
@@ -89,7 +166,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thời Trần",
+        "Những người đỗ các khoa thi Tiến sĩ được ghi trên bia",
+        "Trung tâm đào tạo cao cấp nhất Việt Nam thời quân chủ",
+        "Càn Đức"
+      ],
+      "correct": 2
     },
     {
       "id": "q010",
@@ -98,7 +183,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1442-1779",
+        "82 bia",
+        "1484",
+        "1484-1780"
+      ],
+      "correct": 1
     },
     {
       "id": "q011",
@@ -107,7 +200,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lý Nhân Tông",
+        "Khổng Tử và các bậc Tiên Hiền, Tiên Nho",
+        "Chu Văn An",
+        "Vua Lê Thánh Tông"
+      ],
+      "correct": 3
     },
     {
       "id": "q012",
@@ -116,7 +217,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1442-1779",
+        "1484-1780",
+        "1484",
+        "82 bia"
+      ],
+      "correct": 2
     },
     {
       "id": "q013",
@@ -125,7 +234,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thời Trần",
+        "Trung tâm đào tạo cao cấp nhất Việt Nam thời quân chủ",
+        "Càn Đức",
+        "Những người đỗ các khoa thi Tiến sĩ được ghi trên bia"
+      ],
+      "correct": 3
     },
     {
       "id": "q014",
@@ -134,7 +251,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1484",
+        "1442-1779",
+        "2011",
+        "1484-1780"
+      ],
+      "correct": 1
     },
     {
       "id": "q015",
@@ -143,7 +268,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2012",
+        "1442-1779",
+        "1484-1780",
+        "2011"
+      ],
+      "correct": 2
     },
     {
       "id": "q016",
@@ -152,7 +285,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1484-1780",
+        "1442-1779",
+        "2012",
+        "2011"
+      ],
+      "correct": 3
     },
     {
       "id": "q017",
@@ -161,7 +302,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2011",
+        "1484-1780",
+        "2012",
+        "2015"
+      ],
+      "correct": 2
     },
     {
       "id": "q018",
@@ -170,7 +319,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2015",
+        "2012",
+        "2011",
+        "1484-1780"
+      ],
+      "correct": 0
     },
     {
       "id": "q019",
@@ -179,7 +336,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Chu Văn An",
+        "Vua Lê Thánh Tông",
+        "Lý Nhân Tông",
+        "Vua Trần Minh Tông"
+      ],
+      "correct": 0
     },
     {
       "id": "q020",
@@ -188,7 +353,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Khuê Văn Các",
+        "Thời Trần",
+        "Những người đỗ các khoa thi Tiến sĩ được ghi trên bia",
+        "Phía Nam"
+      ],
+      "correct": 1
     },
     {
       "id": "q021",
@@ -197,16 +370,36 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2011",
+        "2012",
+        "2015",
+        "5 khu"
+      ],
+      "correct": 3
     },
     {
       "id": "q022",
-      "prompt": "Kể tên 5 khu Nội tự.",
-      "answer": "Nhập đạo; Thành Đạt; Vườn bia Tiến sĩ; Đại Thành; Thái Học",
+      "prompt": "Những địa danh nào sau đây thuộc 5 khu Nội tự? (Chọn tất cả đáp án đúng.)",
+      "answer": "Nhập đạo; Thành Đạt; Đại Thành",
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Nhập đạo",
+        "Thành Đạt",
+        "Đại Thành",
+        "Hồ Văn"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q023",
@@ -215,7 +408,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Phía Nam",
+        "Thời Trần",
+        "Học đường phủ Hoài Đức",
+        "Khuê Văn Các"
+      ],
+      "correct": 0
     },
     {
       "id": "q024",
@@ -224,16 +425,36 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Học đường phủ Hoài Đức",
+        "Khuê Văn Các",
+        "Hướng Nam",
+        "Thời Trần"
+      ],
+      "correct": 2
     },
     {
       "id": "q025",
-      "prompt": "Ba thành phần không gian lớn là gì?",
+      "prompt": "Ba thành phần không gian lớn của di tích là những thành phần nào? (Chọn tất cả đáp án đúng.)",
       "answer": "Hồ Văn; Vườn Giám; Nội tự",
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Hồ Văn",
+        "Vườn Giám",
+        "Nội tự",
+        "Hồ Gươm"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q026",
@@ -242,7 +463,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thời Trần",
+        "Khuê Văn Các",
+        "Hướng Nam",
+        "Học đường phủ Hoài Đức"
+      ],
+      "correct": 1
     },
     {
       "id": "q027",
@@ -251,7 +480,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1802",
+        "1831",
+        "1483",
+        "1243"
+      ],
+      "correct": 3
     },
     {
       "id": "q028",
@@ -260,7 +497,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Vua Trần Minh Tông",
+        "Vua Lê Thánh Tông",
+        "Chu Văn An",
+        "Lý Nhân Tông"
+      ],
+      "correct": 0
     },
     {
       "id": "q029",
@@ -269,7 +514,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1802",
+        "1243",
+        "1831",
+        "1483"
+      ],
+      "correct": 3
     },
     {
       "id": "q030",
@@ -278,7 +531,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1483",
+        "1243",
+        "1831",
+        "1802"
+      ],
+      "correct": 3
     },
     {
       "id": "q031",
@@ -287,7 +548,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hiếu học và tôn sư trọng đạo",
+        "Khuê Văn Các",
+        "Học đường phủ Hoài Đức",
+        "Hướng Nam"
+      ],
+      "correct": 2
     },
     {
       "id": "q032",
@@ -296,7 +565,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1802",
+        "1831",
+        "1962",
+        "Khởi công 1999; hoàn thành 2000"
+      ],
+      "correct": 1
     },
     {
       "id": "q033",
@@ -305,7 +582,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "950 năm",
+        "Khởi công 1999; hoàn thành 2000",
+        "1831",
+        "1962"
+      ],
+      "correct": 3
     },
     {
       "id": "q034",
@@ -314,7 +599,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1962",
+        "950 năm",
+        "Khởi công 1999; hoàn thành 2000",
+        "1831"
+      ],
+      "correct": 2
     },
     {
       "id": "q035",
@@ -323,7 +616,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "950 năm",
+        "1076-2026",
+        "Khởi công 1999; hoàn thành 2000",
+        "1962"
+      ],
+      "correct": 0
     },
     {
       "id": "q036",
@@ -332,16 +633,35 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Khởi công 1999; hoàn thành 2000",
+        "950 năm",
+        "1076-2026",
+        "1962"
+      ],
+      "correct": 2
     },
     {
       "id": "q037",
-      "prompt": "Hai truyền thống giáo dục tiêu biểu là gì?",
-      "answer": "Hiếu học và tôn sư trọng đạo",
+      "prompt": "Những truyền thống giáo dục nào gắn tiêu biểu với di tích? (Chọn tất cả đáp án đúng.)",
+      "answer": "Hiếu học; Tôn sư trọng đạo",
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Hiếu học",
+        "Tôn sư trọng đạo",
+        "Sùng bái võ lực",
+        "Coi nhẹ việc học"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q038",
@@ -350,7 +670,15 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hồ Văn; Vườn Giám; Nội tự",
+        "Vì là tư liệu quý về giáo dục, khoa cử và người tài",
+        "Nhập đạo; Thành Đạt; Vườn bia Tiến sĩ; Đại Thành; Thái Học",
+        "Văn Miếu gắn với thờ tự; Quốc Tử Giám gắn với đào tạo"
+      ],
+      "correct": 1
     },
     {
       "id": "q039",
@@ -359,16 +687,35 @@
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Không",
+        "Khuê Văn Các",
+        "Học đường phủ Hoài Đức",
+        "Hiếu học và tôn sư trọng đạo"
+      ],
+      "correct": 0
     },
     {
       "id": "q040",
-      "prompt": "Điều gì phân biệt Văn Miếu với Quốc Tử Giám?",
+      "prompt": "Chọn các mô tả đúng về vai trò của Văn Miếu và Quốc Tử Giám.",
       "answer": "Văn Miếu gắn với thờ tự; Quốc Tử Giám gắn với đào tạo",
       "difficulty": "easy",
       "category": "Kiến thức lõi",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Văn Miếu gắn với thờ tự",
+        "Quốc Tử Giám gắn với đào tạo",
+        "Văn Miếu chỉ dùng để thi cử",
+        "Quốc Tử Giám chỉ dùng để thờ tự"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q041",
@@ -380,10 +727,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - 1070"
+      "explanation": "Sai - 1070",
+      "selectionMode": "single"
     },
     {
       "id": "q042",
@@ -395,10 +745,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q043",
@@ -410,10 +763,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - Lý Thánh Tông"
+      "explanation": "Sai - Lý Thánh Tông",
+      "selectionMode": "single"
     },
     {
       "id": "q044",
@@ -425,10 +781,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q045",
@@ -440,10 +799,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - mở rộng Quốc Tử Giám; bia là 1484"
+      "explanation": "Sai - mở rộng Quốc Tử Giám; bia là 1484",
+      "selectionMode": "single"
     },
     {
       "id": "q046",
@@ -455,10 +817,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q047",
@@ -470,10 +835,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - dựng năm 1484"
+      "explanation": "Sai - dựng năm 1484",
+      "selectionMode": "single"
     },
     {
       "id": "q048",
@@ -485,10 +853,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q049",
@@ -500,10 +871,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - là nhà giáo, Tư nghiệp"
+      "explanation": "Sai - là nhà giáo, Tư nghiệp",
+      "selectionMode": "single"
     },
     {
       "id": "q050",
@@ -515,10 +889,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q051",
@@ -530,10 +907,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q052",
@@ -545,10 +925,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai"
+      "explanation": "Sai",
+      "selectionMode": "single"
     },
     {
       "id": "q053",
@@ -560,10 +943,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q054",
@@ -575,10 +961,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - hướng Nam"
+      "explanation": "Sai - hướng Nam",
+      "selectionMode": "single"
     },
     {
       "id": "q055",
@@ -590,10 +979,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - 2012"
+      "explanation": "Sai - 2012",
+      "selectionMode": "single"
     },
     {
       "id": "q056",
@@ -605,10 +997,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q057",
@@ -620,10 +1015,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q058",
@@ -635,10 +1033,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai"
+      "explanation": "Sai",
+      "selectionMode": "single"
     },
     {
       "id": "q059",
@@ -650,10 +1051,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q060",
@@ -665,10 +1069,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - 1076 đến 2026"
+      "explanation": "Sai - 1076 đến 2026",
+      "selectionMode": "single"
     },
     {
       "id": "q061",
@@ -680,10 +1087,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai"
+      "explanation": "Sai",
+      "selectionMode": "single"
     },
     {
       "id": "q062",
@@ -695,10 +1105,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q063",
@@ -710,10 +1123,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q064",
@@ -725,10 +1141,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai - 2011"
+      "explanation": "Sai - 2011",
+      "selectionMode": "single"
     },
     {
       "id": "q065",
@@ -740,10 +1159,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q066",
@@ -755,10 +1177,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai"
+      "explanation": "Sai",
+      "selectionMode": "single"
     },
     {
       "id": "q067",
@@ -770,10 +1195,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q068",
@@ -785,10 +1213,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 1,
-      "explanation": "Sai"
+      "explanation": "Sai",
+      "selectionMode": "single"
     },
     {
       "id": "q069",
@@ -800,10 +1231,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q070",
@@ -815,10 +1249,13 @@
       "type": "choice",
       "options": [
         "Đúng",
-        "Sai"
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
       ],
       "correct": 0,
-      "explanation": "Đúng"
+      "explanation": "Đúng",
+      "selectionMode": "single"
     },
     {
       "id": "q071",
@@ -827,16 +1264,36 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Mở rộng năm 1483, sớm hơn bia năm 1484",
+        "1484",
+        "1070 - 1075 - 1076 - 1484",
+        "Bia Tiến sĩ: UNESCO công nhận năm 2011; toàn di tích: Nhà nước công nhận năm 2012"
+      ],
+      "correct": 2
     },
     {
       "id": "q072",
-      "prompt": "Ghép ba vua với ba việc: Văn Miếu, Quốc Tử Giám, bia.",
-      "answer": "Lý Thánh Tông - Văn Miếu; Lý Nhân Tông - Quốc Tử Giám; Lê Thánh Tông - bia",
+      "prompt": "Chọn các cặp vua - công việc đúng.",
+      "answer": "Lý Thánh Tông - dựng Văn Miếu; Lý Nhân Tông - lập Quốc Tử Giám; Lê Thánh Tông - khởi dựng bia Tiến sĩ",
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Lý Thánh Tông - dựng Văn Miếu",
+        "Lý Nhân Tông - lập Quốc Tử Giám",
+        "Lê Thánh Tông - khởi dựng bia Tiến sĩ",
+        "Gia Long - dựng Văn Miếu năm 1070"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q073",
@@ -845,7 +1302,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Mở rộng năm 1483, sớm hơn bia năm 1484",
+        "1484",
+        "Bia Tiến sĩ: UNESCO công nhận năm 2011; toàn di tích: Nhà nước công nhận năm 2012",
+        "1070 - 1075 - 1076 - 1484"
+      ],
+      "correct": 1
     },
     {
       "id": "q074",
@@ -854,7 +1319,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1070 - 1075 - 1076 - 1484",
+        "1484",
+        "Mở rộng năm 1483, sớm hơn bia năm 1484",
+        "Bia Tiến sĩ: UNESCO công nhận năm 2011; toàn di tích: Nhà nước công nhận năm 2012"
+      ],
+      "correct": 2
     },
     {
       "id": "q075",
@@ -863,16 +1336,35 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Văn Miếu",
+        "Ghi tên người đỗ và thông tin các khoa thi",
+        "Bia được truy dựng sau",
+        "Mở rộng năm 1483, sớm hơn bia năm 1484"
+      ],
+      "correct": 2
     },
     {
       "id": "q076",
-      "prompt": "Phân biệt Di sản tư liệu thế giới và Di tích quốc gia đặc biệt.",
-      "answer": "Bia Tiến sĩ: UNESCO công nhận năm 2011; toàn di tích: Nhà nước công nhận năm 2012",
+      "prompt": "Chọn các mô tả đúng để phân biệt hai danh hiệu.",
+      "answer": "82 bia Tiến sĩ được UNESCO ghi danh Di sản tư liệu thế giới năm 2011; Toàn di tích được công nhận Di tích quốc gia đặc biệt năm 2012",
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "82 bia Tiến sĩ được UNESCO ghi danh Di sản tư liệu thế giới năm 2011",
+        "Toàn di tích được công nhận Di tích quốc gia đặc biệt năm 2012",
+        "Toàn di tích được UNESCO ghi danh Di sản thiên nhiên năm 2011",
+        "82 bia được công nhận Di tích quốc gia đặc biệt năm 2012"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q077",
@@ -881,7 +1373,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lý Thánh Tông",
+        "Lê Thánh Tông",
+        "Lý Nhân Tông",
+        "Chu Văn An"
+      ],
+      "correct": 2
     },
     {
       "id": "q078",
@@ -890,7 +1390,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Chu Văn An",
+        "Lý Thánh Tông",
+        "Lý Nhân Tông",
+        "Lê Thánh Tông"
+      ],
+      "correct": 1
     },
     {
       "id": "q079",
@@ -899,7 +1407,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lý Nhân Tông",
+        "Chu Văn An",
+        "Lê Thánh Tông",
+        "Lý Thánh Tông"
+      ],
+      "correct": 2
     },
     {
       "id": "q080",
@@ -908,7 +1424,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Chu Văn An",
+        "Lý Nhân Tông",
+        "Lê Thánh Tông",
+        "Lý Thánh Tông"
+      ],
+      "correct": 0
     },
     {
       "id": "q081",
@@ -917,7 +1441,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Chu Văn An",
+        "Bia được truy dựng sau",
+        "Ghi tên người đỗ và thông tin các khoa thi",
+        "Văn Miếu"
+      ],
+      "correct": 3
     },
     {
       "id": "q082",
@@ -926,16 +1458,36 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Văn Miếu",
+        "Ghi tên người đỗ và thông tin các khoa thi",
+        "Hiếu học, tôn sư trọng đạo, trọng dụng nhân tài, gìn giữ di sản",
+        "Bia được truy dựng sau"
+      ],
+      "correct": 1
     },
     {
       "id": "q083",
-      "prompt": "Nêu bốn giá trị của di tích trong một câu.",
-      "answer": "Hiếu học, tôn sư trọng đạo, trọng dụng nhân tài, gìn giữ di sản",
+      "prompt": "Những giá trị nào được di tích nhắc nhở thế hệ trẻ? (Chọn tất cả đáp án đúng.)",
+      "answer": "Hiếu học; Tôn sư trọng đạo; Trọng dụng nhân tài",
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Hiếu học",
+        "Tôn sư trọng đạo",
+        "Trọng dụng nhân tài",
+        "Lãng quên di sản"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q084",
@@ -944,7 +1496,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "956 năm",
+        "2011 UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới; quốc gia đặc biệt là 2012",
+        "950 năm",
+        "Sai ghép mốc; Quốc Tử Giám là 1076"
+      ],
+      "correct": 3
     },
     {
       "id": "q085",
@@ -953,7 +1513,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2011 UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới; quốc gia đặc biệt là 2012",
+        "Sai ghép mốc; Quốc Tử Giám là 1076",
+        "956 năm",
+        "950 năm"
+      ],
+      "correct": 0
     },
     {
       "id": "q086",
@@ -962,7 +1530,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2011 UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới; quốc gia đặc biệt là 2012",
+        "956 năm",
+        "950 năm",
+        "Sai ghép mốc; Quốc Tử Giám là 1076"
+      ],
+      "correct": 2
     },
     {
       "id": "q087",
@@ -971,7 +1547,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2011 UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới; quốc gia đặc biệt là 2012",
+        "Sai ghép mốc; Quốc Tử Giám là 1076",
+        "956 năm",
+        "950 năm"
+      ],
+      "correct": 2
     },
     {
       "id": "q088",
@@ -980,7 +1564,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Không; năm dựng bia và năm khoa thi là hai mốc khác nhau",
+        "Đánh dấu từ phủ định, tìm phương án không thuộc nhóm",
+        "Hiếu học, tôn sư trọng đạo, trọng dụng nhân tài, gìn giữ di sản",
+        "Bia ghi người đỗ các khoa thi được khắc, không phải toàn bộ người học"
+      ],
+      "correct": 0
     },
     {
       "id": "q089",
@@ -989,7 +1581,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Không; năm dựng bia và năm khoa thi là hai mốc khác nhau",
+        "Hiếu học, tôn sư trọng đạo, trọng dụng nhân tài, gìn giữ di sản",
+        "Bia ghi người đỗ các khoa thi được khắc, không phải toàn bộ người học",
+        "Đánh dấu từ phủ định, tìm phương án không thuộc nhóm"
+      ],
+      "correct": 2
     },
     {
       "id": "q090",
@@ -998,7 +1598,15 @@
       "difficulty": "hard",
       "category": "Câu phân loại",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hiếu học, tôn sư trọng đạo, trọng dụng nhân tài, gìn giữ di sản",
+        "Không; năm dựng bia và năm khoa thi là hai mốc khác nhau",
+        "Đánh dấu từ phủ định, tìm phương án không thuộc nhóm",
+        "Bia ghi người đỗ các khoa thi được khắc, không phải toàn bộ người học"
+      ],
+      "correct": 2
     },
     {
       "id": "q091",
@@ -1007,7 +1615,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "3 gian",
+        "16 ngôi sao",
+        "1805",
+        "4 trụ"
+      ],
+      "correct": 2
     },
     {
       "id": "q092",
@@ -1016,7 +1632,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lý Thánh Tông, Lý Nhân Tông, Lê Thánh Tông",
+        "Chu Văn An",
+        "1805",
+        "Tổng trấn Nguyễn Văn Thành"
+      ],
+      "correct": 3
     },
     {
       "id": "q093",
@@ -1025,7 +1649,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Văn chương/học vấn",
+        "Khu thứ hai - Thành Đạt",
+        "Gỗ",
+        "Cửa sổ tròn"
+      ],
+      "correct": 1
     },
     {
       "id": "q094",
@@ -1034,7 +1666,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "4 trụ",
+        "1805",
+        "16 ngôi sao",
+        "3 gian"
+      ],
+      "correct": 0
     },
     {
       "id": "q095",
@@ -1043,7 +1683,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Cửa sổ tròn",
+        "Văn chương/học vấn",
+        "Khu thứ hai - Thành Đạt",
+        "Gỗ"
+      ],
+      "correct": 3
     },
     {
       "id": "q096",
@@ -1052,7 +1700,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Gỗ",
+        "Khu thứ hai - Thành Đạt",
+        "Cửa sổ tròn",
+        "Văn chương/học vấn"
+      ],
+      "correct": 2
     },
     {
       "id": "q097",
@@ -1061,7 +1717,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Cửa sổ tròn",
+        "Gỗ",
+        "Văn chương/học vấn",
+        "Bí Văn và Súc Văn"
+      ],
+      "correct": 2
     },
     {
       "id": "q098",
@@ -1070,7 +1734,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "16 ngôi sao",
+        "4 trụ",
+        "1805",
+        "3 gian"
+      ],
+      "correct": 0
     },
     {
       "id": "q099",
@@ -1079,7 +1751,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Khuê Văn Các",
+        "Bí Văn và Súc Văn",
+        "Văn chương/học vấn",
+        "Giếng Thiên Quang"
+      ],
+      "correct": 1
     },
     {
       "id": "q100",
@@ -1088,7 +1768,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Giếng Thiên Quang",
+        "Kim Thanh và Ngọc Chấn",
+        "Khuê Văn Các",
+        "Bí Văn và Súc Văn"
+      ],
+      "correct": 2
     },
     {
       "id": "q101",
@@ -1097,7 +1785,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Kim Thanh và Ngọc Chấn",
+        "Giếng Thiên Quang",
+        "Khuê Văn Các",
+        "Bí Văn và Súc Văn"
+      ],
+      "correct": 1
     },
     {
       "id": "q102",
@@ -1106,7 +1802,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Kim Thanh và Ngọc Chấn",
+        "Nơi hành lễ",
+        "Giếng Thiên Quang",
+        "Khuê Văn Các"
+      ],
+      "correct": 0
     },
     {
       "id": "q103",
@@ -1115,7 +1819,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1999",
+        "40 cột",
+        "9 gian",
+        "3 gian"
+      ],
+      "correct": 3
     },
     {
       "id": "q104",
@@ -1124,16 +1836,32 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Giếng Thiên Quang",
+        "Kim Thanh và Ngọc Chấn",
+        "Nơi hành lễ",
+        "Khuê Văn Các"
+      ],
+      "correct": 2
     },
     {
       "id": "q105",
-      "prompt": "Điện Đại Thành có bao nhiêu gian?",
+      "prompt": "Nhà Bái Đường trong khu Đại Thành có bao nhiêu gian?",
       "answer": "9 gian",
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "3 gian",
+        "9 gian",
+        "40 cột",
+        "1999"
+      ],
+      "correct": 1
     },
     {
       "id": "q106",
@@ -1142,7 +1870,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1999",
+        "40 cột",
+        "9 gian",
+        "2000"
+      ],
+      "correct": 1
     },
     {
       "id": "q107",
@@ -1151,7 +1887,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2000",
+        "9 gian",
+        "40 cột",
+        "1999"
+      ],
+      "correct": 3
     },
     {
       "id": "q108",
@@ -1160,7 +1904,15 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "9 gian",
+        "40 cột",
+        "1999",
+        "2000"
+      ],
+      "correct": 3
     },
     {
       "id": "q109",
@@ -1169,34 +1921,73 @@
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2000",
+        "Tổng trấn Nguyễn Văn Thành",
+        "Chu Văn An",
+        "Lý Thánh Tông, Lý Nhân Tông, Lê Thánh Tông"
+      ],
+      "correct": 2
     },
     {
       "id": "q110",
-      "prompt": "Tầng trên Hậu Đường thờ ba vị vua nào?",
-      "answer": "Lý Thánh Tông, Lý Nhân Tông, Lê Thánh Tông",
+      "prompt": "Những vị vua nào được thờ ở tầng trên Hậu Đường? (Chọn tất cả đáp án đúng.)",
+      "answer": "Lý Thánh Tông; Lý Nhân Tông; Lê Thánh Tông",
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Lý Thánh Tông",
+        "Lý Nhân Tông",
+        "Lê Thánh Tông",
+        "Gia Long"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q111",
-      "prompt": "Theo cách mô tả trong đề test, Khuê Văn Các có bao nhiêu tầng kiến trúc và phần mái được gọi thế nào?",
-      "answer": "2 tầng kiến trúc; 2 tầng mái, thường gọi tổng cộng 8 mái",
+      "prompt": "Theo mô tả chính thức, mái Khuê Văn Các có bao nhiêu tầng?",
+      "answer": "2 tầng mái",
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "2 tầng mái",
+        "2000",
+        "40 cột",
+        "1999"
+      ],
+      "correct": 0
     },
     {
       "id": "q112",
-      "prompt": "Các câu đối ở bốn mặt Khuê Văn Các ca ngợi điều gì?",
-      "answer": "Văn hiến/văn chương và sao Khuê",
+      "prompt": "Các câu đối ở bốn mặt Khuê Văn Các ca ngợi những nội dung nào? (Chọn tất cả đáp án đúng.)",
+      "answer": "Nền văn hiến và văn chương; Sao Khuê",
       "difficulty": "medium",
       "category": "Kiến trúc",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Nền văn hiến và văn chương",
+        "Sao Khuê",
+        "Chiến trận",
+        "Nghề thủ công"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q113",
@@ -1205,7 +1996,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Rùa đá",
+        "Nhâm Tuất",
+        "Thân Nhân Trung",
+        "Phía Đông và phía Tây"
+      ],
+      "correct": 0
     },
     {
       "id": "q114",
@@ -1214,7 +2013,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Phía Đông và phía Tây",
+        "Thân Nhân Trung",
+        "Rùa đá",
+        "Nhâm Tuất"
+      ],
+      "correct": 0
     },
     {
       "id": "q115",
@@ -1223,7 +2030,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1484-1780",
+        "1442",
+        "1442-1779",
+        "41 bia"
+      ],
+      "correct": 3
     },
     {
       "id": "q116",
@@ -1232,7 +2047,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "41 bia",
+        "1442",
+        "1484-1780",
+        "1442-1779"
+      ],
+      "correct": 3
     },
     {
       "id": "q117",
@@ -1241,7 +2064,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1442-1779",
+        "1442",
+        "1484-1780",
+        "41 bia"
+      ],
+      "correct": 2
     },
     {
       "id": "q118",
@@ -1250,7 +2081,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1442",
+        "1442-1779",
+        "1484",
+        "1484-1780"
+      ],
+      "correct": 0
     },
     {
       "id": "q119",
@@ -1259,7 +2098,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Rùa đá",
+        "Phía Đông và phía Tây",
+        "Thân Nhân Trung",
+        "Nhâm Tuất"
+      ],
+      "correct": 3
     },
     {
       "id": "q120",
@@ -1268,7 +2115,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1484",
+        "33 người",
+        "1442",
+        "42 năm"
+      ],
+      "correct": 0
     },
     {
       "id": "q121",
@@ -1277,7 +2132,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1484",
+        "33 người",
+        "42 năm",
+        "1442"
+      ],
+      "correct": 2
     },
     {
       "id": "q122",
@@ -1286,7 +2149,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "42 năm",
+        "1484",
+        "1442",
+        "33 người"
+      ],
+      "correct": 3
     },
     {
       "id": "q123",
@@ -1295,7 +2166,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Vua Mạc Đăng Doanh cho trùng tu Quốc Tử Giám",
+        "33 người",
+        "Lê Thánh Tông",
+        "Lê Thái Tông"
+      ],
+      "correct": 3
     },
     {
       "id": "q124",
@@ -1304,7 +2183,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Vua Mạc Đăng Doanh cho trùng tu Quốc Tử Giám",
+        "Thân Nhân Trung",
+        "Lê Thánh Tông",
+        "Lê Thái Tông"
+      ],
+      "correct": 2
     },
     {
       "id": "q125",
@@ -1313,7 +2200,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hiền tài",
+        "Nhâm Tuất",
+        "Phía Đông và phía Tây",
+        "Thân Nhân Trung"
+      ],
+      "correct": 3
     },
     {
       "id": "q126",
@@ -1322,7 +2217,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thân Nhân Trung",
+        "Hiền tài",
+        "Phía Đông và phía Tây",
+        "Nhâm Tuất"
+      ],
+      "correct": 1
     },
     {
       "id": "q127",
@@ -1331,7 +2234,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1 năm",
+        "1802",
+        "1075",
+        "1243"
+      ],
+      "correct": 2
     },
     {
       "id": "q128",
@@ -1340,7 +2251,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1243",
+        "1 năm",
+        "1802",
+        "1075"
+      ],
+      "correct": 1
     },
     {
       "id": "q129",
@@ -1349,7 +2268,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1802",
+        "1075",
+        "1 năm",
+        "1243"
+      ],
+      "correct": 3
     },
     {
       "id": "q130",
@@ -1358,7 +2285,15 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1802",
+        "1919, tại Huế",
+        "1 năm",
+        "1243"
+      ],
+      "correct": 0
     },
     {
       "id": "q131",
@@ -1367,34 +2302,69 @@
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1802",
+        "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+        "1919, tại Huế",
+        "1243"
+      ],
+      "correct": 2
     },
     {
       "id": "q132",
-      "prompt": "Vì sao 1779 và 1780 đều có thể xuất hiện trong câu hỏi về bia?",
-      "answer": "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+      "prompt": "Chọn các giải thích đúng về hai mốc 1779 và 1780.",
+      "answer": "1779 là năm khoa thi cuối được bia ghi; 1780 là năm dựng bia cuối",
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "1779 là năm khoa thi cuối được bia ghi",
+        "1780 là năm dựng bia cuối",
+        "1779 là năm dựng Văn Miếu",
+        "1780 là năm lập Quốc Tử Giám"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q133",
-      "prompt": "Mốc 1253 thời Trần gắn với sự kiện giáo dục nào?",
-      "answer": "Triều Trần lập Quốc Học viện để giảng dạy kinh điển; một số tài liệu chính thức mô tả việc mở rộng cho người học giỏi xuất thân bình dân",
+      "prompt": "Mốc 1536 gắn với sự kiện nào tại Quốc Tử Giám?",
+      "answer": "Vua Mạc Đăng Doanh cho trùng tu Quốc Tử Giám",
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lê Thánh Tông",
+        "Lê Thái Tông",
+        "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+        "Vua Mạc Đăng Doanh cho trùng tu Quốc Tử Giám"
+      ],
+      "correct": 3
     },
     {
       "id": "q134",
-      "prompt": "Phân biệt hai mốc UNESCO 2010 và 2011 của 82 bia Tiến sĩ.",
-      "answer": "2010: cấp khu vực Châu Á - Thái Bình Dương; 2011: cấp thế giới/toàn cầu",
+      "prompt": "Theo hồ sơ Memory of the World của UNESCO, hai mốc 2010 và 2011 của 82 bia Tiến sĩ có ý nghĩa gì?",
+      "answer": "2010 là năm Việt Nam nộp hồ sơ; 2011 là năm được đăng ký vào Danh mục Di sản tư liệu thế giới",
       "difficulty": "medium",
       "category": "Bia Tiến sĩ và khoa cử",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+        "2010 là năm Việt Nam nộp hồ sơ; 2011 là năm được đăng ký vào Danh mục Di sản tư liệu thế giới",
+        "1919, tại Huế",
+        "1802"
+      ],
+      "correct": 1
     },
     {
       "id": "q135",
@@ -1403,7 +2373,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "82 bia Tiến sĩ",
+        "Triều Trần",
+        "1292-1370",
+        "58 Quốc Tử Giám, Hà Nội"
+      ],
+      "correct": 2
     },
     {
       "id": "q136",
@@ -1412,7 +2390,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Nhan Tử",
+        "Triều Trần",
+        "Thất trảm sớ",
+        "Tư nghiệp"
+      ],
+      "correct": 1
     },
     {
       "id": "q137",
@@ -1421,7 +2407,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Tư nghiệp",
+        "Nhan Tử",
+        "Thất trảm sớ",
+        "Triều Trần"
+      ],
+      "correct": 0
     },
     {
       "id": "q138",
@@ -1430,7 +2424,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thất trảm sớ",
+        "Tư nghiệp",
+        "Triều Trần",
+        "Nhan Tử"
+      ],
+      "correct": 0
     },
     {
       "id": "q139",
@@ -1439,16 +2441,36 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Nhan Tử, Tăng Tử, Tử Tư, Mạnh Tử",
+        "Khổng Tử",
+        "Tư nghiệp",
+        "Thất trảm sớ"
+      ],
+      "correct": 1
     },
     {
       "id": "q140",
-      "prompt": "Tứ phối gồm những ai?",
-      "answer": "Nhan Tử, Tăng Tử, Tử Tư, Mạnh Tử",
+      "prompt": "Những nhân vật nào sau đây thuộc Tứ phối? (Chọn tất cả đáp án đúng.)",
+      "answer": "Nhan Tử; Tăng Tử; Tử Tư",
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Nhan Tử",
+        "Tăng Tử",
+        "Tử Tư",
+        "Chu Văn An"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q141",
@@ -1457,7 +2479,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thất trảm sớ",
+        "Tăng Tử",
+        "Nhan Tử",
+        "Tử Tư"
+      ],
+      "correct": 2
     },
     {
       "id": "q142",
@@ -1466,7 +2496,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Tăng Tử",
+        "Nhan Tử",
+        "Mạnh Tử",
+        "Tử Tư"
+      ],
+      "correct": 0
     },
     {
       "id": "q143",
@@ -1475,7 +2513,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Mạnh Tử",
+        "Tăng Tử",
+        "Tử Tư",
+        "Nhan Tử"
+      ],
+      "correct": 2
     },
     {
       "id": "q144",
@@ -1484,7 +2530,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Tăng Tử",
+        "Phường Văn Miếu - Quốc Tử Giám",
+        "Tử Tư",
+        "Mạnh Tử"
+      ],
+      "correct": 3
     },
     {
       "id": "q145",
@@ -1493,7 +2547,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Mạnh Tử",
+        "1292-1370",
+        "58 Quốc Tử Giám, Hà Nội",
+        "82 bia Tiến sĩ"
+      ],
+      "correct": 2
     },
     {
       "id": "q146",
@@ -1502,7 +2564,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Tử Tư",
+        "Hội chữ Xuân",
+        "Mạnh Tử",
+        "Phường Văn Miếu - Quốc Tử Giám"
+      ],
+      "correct": 3
     },
     {
       "id": "q147",
@@ -1511,16 +2581,37 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hội chữ Xuân",
+        "Đào tạo người tài cho đất nước",
+        "Mạnh Tử",
+        "Phường Văn Miếu - Quốc Tử Giám"
+      ],
+      "correct": 0
     },
     {
       "id": "q148",
-      "prompt": "Nêu bốn nhóm giá trị của di tích theo đề test.",
-      "answer": "Lịch sử, văn hóa, giáo dục, nghệ thuật",
+      "prompt": "Bốn nhóm giá trị của di tích theo đề test gồm những nhóm nào? (Chọn tất cả đáp án đúng.)",
+      "answer": "Lịch sử; Văn hóa; Giáo dục; Nghệ thuật",
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Lịch sử",
+        "Văn hóa",
+        "Giáo dục",
+        "Nghệ thuật"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
     },
     {
       "id": "q149",
@@ -1529,7 +2620,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hiếu học và trọng dụng nhân tài",
+        "Đào tạo người tài cho đất nước",
+        "Hội chữ Xuân",
+        "Phường Văn Miếu - Quốc Tử Giám"
+      ],
+      "correct": 1
     },
     {
       "id": "q150",
@@ -1538,7 +2637,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Toàn di tích Văn Miếu - Quốc Tử Giám",
+        "Hội chữ Xuân",
+        "Hiếu học và trọng dụng nhân tài",
+        "Đào tạo người tài cho đất nước"
+      ],
+      "correct": 2
     },
     {
       "id": "q151",
@@ -1547,7 +2654,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Giữ vệ sinh, tuân thủ quy định, không làm hư hại hiện vật",
+        "Hiếu học và trọng dụng nhân tài",
+        "Nhan Tử, Tăng Tử, Tử Tư, Mạnh Tử",
+        "Lịch sử, văn hóa, giáo dục, nghệ thuật"
+      ],
+      "correct": 0
     },
     {
       "id": "q152",
@@ -1556,7 +2671,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "82 bia Tiến sĩ",
+        "Giữ vệ sinh, tuân thủ quy định, không làm hư hại hiện vật",
+        "1292-1370",
+        "58 Quốc Tử Giám, Hà Nội"
+      ],
+      "correct": 0
     },
     {
       "id": "q153",
@@ -1565,7 +2688,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Bảo vật quốc gia",
+        "Toàn di tích Văn Miếu - Quốc Tử Giám",
+        "Đào tạo người tài cho đất nước",
+        "Hiếu học và trọng dụng nhân tài"
+      ],
+      "correct": 1
     },
     {
       "id": "q154",
@@ -1574,7 +2705,15 @@
       "difficulty": "easy",
       "category": "Danh nhân và giá trị",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Hiếu học và trọng dụng nhân tài",
+        "Bảo vật quốc gia",
+        "Toàn di tích Văn Miếu - Quốc Tử Giám",
+        "Đào tạo người tài cho đất nước"
+      ],
+      "correct": 1
     },
     {
       "id": "q155",
@@ -1583,7 +2722,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "In 1070.",
+        "In Ha Noi.",
+        "In 1076.",
+        "King Ly Thanh Tong."
+      ],
+      "correct": 1
     },
     {
       "id": "q156",
@@ -1592,7 +2739,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "In 1076.",
+        "King Ly Thanh Tong.",
+        "In Ha Noi.",
+        "In 1070."
+      ],
+      "correct": 3
     },
     {
       "id": "q157",
@@ -1601,7 +2756,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "In 1070.",
+        "In Ha Noi.",
+        "King Ly Thanh Tong.",
+        "In 1076."
+      ],
+      "correct": 3
     },
     {
       "id": "q158",
@@ -1610,7 +2773,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "King Ly Nhan Tong.",
+        "King Ly Thanh Tong.",
+        "In 1070.",
+        "In 1076."
+      ],
+      "correct": 1
     },
     {
       "id": "q159",
@@ -1619,7 +2790,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "King Ly Nhan Tong.",
+        "King Ly Thanh Tong.",
+        "Confucius and sages.",
+        "In 1076."
+      ],
+      "correct": 0
     },
     {
       "id": "q160",
@@ -1628,7 +2807,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "King Ly Nhan Tong.",
+        "Eighty-two.",
+        "King Ly Thanh Tong.",
+        "Confucius and sages."
+      ],
+      "correct": 3
     },
     {
       "id": "q161",
@@ -1637,7 +2824,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Confucius and sages.",
+        "Eighty-two.",
+        "Stone turtles.",
+        "King Ly Nhan Tong."
+      ],
+      "correct": 1
     },
     {
       "id": "q162",
@@ -1646,7 +2841,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Stone turtles.",
+        "The names of doctoral laureates and royal examinations.",
+        "Eighty-two.",
+        "Confucius and sages."
+      ],
+      "correct": 0
     },
     {
       "id": "q163",
@@ -1655,7 +2858,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Stone turtles.",
+        "Eighty-two.",
+        "The names of doctoral laureates and royal examinations.",
+        "Doctoral steles and ancient buildings."
+      ],
+      "correct": 2
     },
     {
       "id": "q164",
@@ -1664,7 +2875,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Stone turtles.",
+        "The names of doctoral laureates and royal examinations.",
+        "Doctoral steles and ancient buildings.",
+        "To educate and train talented people."
+      ],
+      "correct": 2
     },
     {
       "id": "q165",
@@ -1673,7 +2892,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "The names of doctoral laureates and royal examinations.",
+        "To educate and train talented people.",
+        "Doctoral steles and ancient buildings.",
+        "Khue Van Pavilion."
+      ],
+      "correct": 1
     },
     {
       "id": "q166",
@@ -1682,7 +2909,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Khue Van Pavilion.",
+        "The tradition of learning and respect for teachers.",
+        "Doctoral steles and ancient buildings.",
+        "To educate and train talented people."
+      ],
+      "correct": 0
     },
     {
       "id": "q167",
@@ -1691,7 +2926,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "The tradition of learning and respect for teachers.",
+        "Khue Van Pavilion.",
+        "To educate and train talented people.",
+        "Bia Tiến sĩ."
+      ],
+      "correct": 0
     },
     {
       "id": "q168",
@@ -1700,7 +2943,15 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Các công trình kiến trúc cổ.",
+        "The tradition of learning and respect for teachers.",
+        "Bia Tiến sĩ.",
+        "Khue Van Pavilion."
+      ],
+      "correct": 2
     },
     {
       "id": "q169",
@@ -1709,34 +2960,66 @@
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Các công trình kiến trúc cổ.",
+        "1076",
+        "Bia Tiến sĩ.",
+        "The tradition of learning and respect for teachers."
+      ],
+      "correct": 0
     },
     {
       "id": "q170",
-      "prompt": "Choose the correct year: The Imperial Academy was founded in A.1070 B.1076 C.1484 D.1805.",
-      "answer": "B",
+      "prompt": "In which year was the Imperial Academy founded?",
+      "answer": "1076",
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "options": [
+        "1070",
+        "1076",
+        "1484",
+        "1805"
+      ],
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q171",
-      "prompt": "Choose the correct place: The Temple of Literature is in A.Hue B.Hoi An C.Ha Noi D.Da Nang.",
-      "answer": "C",
+      "prompt": "In which city is the Temple of Literature located?",
+      "answer": "Ha Noi",
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "options": [
+        "Hue",
+        "Hoi An",
+        "Ha Noi",
+        "Da Nang"
+      ],
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q172",
-      "prompt": "Complete: There are ... doctoral steles today.",
-      "answer": "82/eighty-two",
+      "prompt": "Complete the sentence: There are ... doctoral steles today.",
+      "answer": "Eighty-two",
       "difficulty": "medium",
       "category": "Tiếng Anh",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "options": [
+        "Eighty",
+        "Eighty-one",
+        "Eighty-two",
+        "Eighty-three"
+      ],
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q173",
@@ -1748,9 +3031,12 @@
       "type": "choice",
       "options": [
         "True",
-        "False"
+        "False",
+        "Partly true",
+        "Not enough information"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q174",
@@ -1762,63 +3048,135 @@
       "type": "choice",
       "options": [
         "True",
-        "False"
+        "False",
+        "Partly true",
+        "Not enough information"
       ],
-      "correct": 0
+      "correct": 0,
+      "selectionMode": "single"
     },
     {
       "id": "q175",
-      "prompt": "Nêu đủ bốn mốc vàng theo thứ tự.",
-      "answer": "1070 Văn Miếu; 1075 khoa thi đầu tiên; 1076 Quốc Tử Giám; 1484 khởi dựng bia",
+      "prompt": "Chọn các cặp mốc - sự kiện đúng.",
+      "answer": "1070 - dựng Văn Miếu; 1076 - lập Quốc Tử Giám; 1484 - khởi dựng bia Tiến sĩ",
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "1070 - dựng Văn Miếu",
+        "1076 - lập Quốc Tử Giám",
+        "1484 - khởi dựng bia Tiến sĩ",
+        "1805 - tổ chức khoa thi Nho học đầu tiên"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q176",
-      "prompt": "Nêu năm khu Nội tự theo thứ tự.",
-      "answer": "Nhập đạo; Thành Đạt; Vườn bia; Đại Thành; Thái Học",
+      "prompt": "Chọn ba địa danh thuộc hệ thống 5 khu Nội tự.",
+      "answer": "Nhập đạo; Vườn bia; Thái Học",
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Nhập đạo",
+        "Vườn bia",
+        "Thái Học",
+        "Hồ Văn"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q177",
-      "prompt": "Nêu ba vị vua được thờ ở tầng trên Hậu Đường.",
+      "prompt": "Chọn các vị vua được thờ ở tầng trên Hậu Đường.",
       "answer": "Lý Thánh Tông; Lý Nhân Tông; Lê Thánh Tông",
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Lý Thánh Tông",
+        "Lý Nhân Tông",
+        "Lê Thánh Tông",
+        "Trần Thái Tông"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q178",
-      "prompt": "Phân biệt ngắn 1442 và 1484.",
-      "answer": "1442 là năm khoa thi; 1484 là năm dựng bia ghi khoa ấy",
+      "prompt": "Chọn các nhận định đúng về mốc 1442 và 1484.",
+      "answer": "1442 là năm diễn ra khoa Nhâm Tuất; 1484 là năm dựng bia ghi khoa 1442",
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "1442 là năm diễn ra khoa Nhâm Tuất",
+        "1484 là năm dựng bia ghi khoa 1442",
+        "1442 là năm lập Quốc Tử Giám",
+        "1484 là năm dựng Văn Miếu"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q179",
-      "prompt": "Phân biệt ngắn 1779 và 1780.",
+      "prompt": "Chọn các nhận định đúng về mốc 1779 và 1780.",
       "answer": "1779 là năm khoa thi cuối được bia ghi; 1780 là năm dựng bia cuối",
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "1779 là năm khoa thi cuối được bia ghi",
+        "1780 là năm dựng bia cuối",
+        "1779 là năm xây Khuê Văn Các",
+        "1780 là năm lập Quốc Tử Giám"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q180",
-      "prompt": "Nêu hai chi tiết hình học nổi bật của Khuê Văn Các.",
-      "answer": "Bốn trụ gạch; bốn cửa sổ tròn",
+      "prompt": "Những chi tiết hình học nào nổi bật ở Khuê Văn Các? (Chọn tất cả đáp án đúng.)",
+      "answer": "Bốn trụ gạch ở tầng dưới; Bốn cửa sổ tròn ở tầng trên",
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Bốn trụ gạch ở tầng dưới",
+        "Bốn cửa sổ tròn ở tầng trên",
+        "Tám tầng mái",
+        "Tầng dưới hoàn toàn bằng gỗ"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q181",
@@ -1827,7 +3185,15 @@
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Bốn trụ gạch; bốn cửa sổ tròn",
+        "A famous teacher and an official of the Imperial Academy.",
+        "Kim Thanh và Ngọc Chấn",
+        "Bí Văn và Súc Văn"
+      ],
+      "correct": 3
     },
     {
       "id": "q182",
@@ -1836,7 +3202,15 @@
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "A famous teacher and an official of the Imperial Academy.",
+        "Bốn trụ gạch; bốn cửa sổ tròn",
+        "Bí Văn và Súc Văn",
+        "Kim Thanh và Ngọc Chấn"
+      ],
+      "correct": 3
     },
     {
       "id": "q183",
@@ -1845,7 +3219,15 @@
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Kim Thanh và Ngọc Chấn",
+        "Bí Văn và Súc Văn",
+        "Nhắc thế hệ trẻ chăm học, kính trọng thầy cô, coi trọng người tài và gìn giữ di sản",
+        "A famous teacher and an official of the Imperial Academy."
+      ],
+      "correct": 3
     },
     {
       "id": "q184",
@@ -1854,7 +3236,15 @@
       "difficulty": "hard",
       "category": "Câu phụ phân hạng",
       "source": "Tài liệu audit",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Kim Thanh và Ngọc Chấn",
+        "Bí Văn và Súc Văn",
+        "A famous teacher and an official of the Imperial Academy.",
+        "Nhắc thế hệ trẻ chăm học, kính trọng thầy cô, coi trọng người tài và gìn giữ di sản"
+      ],
+      "correct": 3
     },
     {
       "id": "q185",
@@ -1870,16 +3260,25 @@
         "Lê",
         "Nguyễn"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q186",
-      "prompt": "Điền từ: Quốc Tử Giám thường được giới thiệu là trường ... đầu tiên của Việt Nam.",
-      "answer": "đại học",
+      "prompt": "Điền từ theo cách giới thiệu chính thức: Quốc Tử Giám là trường ... đầu tiên của Việt Nam.",
+      "answer": "quốc học",
       "difficulty": "easy",
       "category": "Đề mô phỏng A",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "quốc học",
+        "Rùa đá",
+        "Lý",
+        "Khuê Văn Các"
+      ],
+      "correct": 0
     },
     {
       "id": "q187",
@@ -1895,7 +3294,8 @@
         "Các tướng",
         "Các nghệ nhân"
       ],
-      "correct": 0
+      "correct": 0,
+      "selectionMode": "single"
     },
     {
       "id": "q188",
@@ -1904,7 +3304,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng A",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "quốc học",
+        "Lý",
+        "Khuê Văn Các",
+        "Rùa đá"
+      ],
+      "correct": 2
     },
     {
       "id": "q189",
@@ -1913,7 +3321,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng A",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Rùa đá",
+        "Di sản tư liệu thế giới",
+        "quốc học",
+        "Khuê Văn Các"
+      ],
+      "correct": 0
     },
     {
       "id": "q190",
@@ -1929,7 +3345,8 @@
         "Giữ vệ sinh, không làm hư hại",
         "Trèo lên bia"
       ],
-      "correct": 2
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q191",
@@ -1945,7 +3362,8 @@
         "543.310 m²",
         "1.530 m²"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q192",
@@ -1961,7 +3379,8 @@
         "Di sản phi vật thể",
         "Kỳ quan"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q193",
@@ -1970,16 +3389,35 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng A",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1484",
+        "Di sản tư liệu thế giới",
+        "54.331 m²",
+        "41"
+      ],
+      "correct": 3
     },
     {
       "id": "q194",
-      "prompt": "Nêu hai truyền thống giáo dục tiêu biểu gắn với di tích.",
-      "answer": "Hiếu học; tôn sư trọng đạo",
+      "prompt": "Chọn đúng hai truyền thống giáo dục tiêu biểu gắn với di tích.",
+      "answer": "Hiếu học; Tôn sư trọng đạo",
       "difficulty": "medium",
       "category": "Đề mô phỏng A",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Hiếu học",
+        "Tôn sư trọng đạo",
+        "Coi nhẹ người tài",
+        "Lãng quên lịch sử"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q195",
@@ -1988,7 +3426,15 @@
       "difficulty": "hard",
       "category": "Đề mô phỏng A",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "54.331 m²",
+        "41",
+        "1484",
+        "Hiếu học; tôn sư trọng đạo"
+      ],
+      "correct": 2
     },
     {
       "id": "q196",
@@ -2004,7 +3450,8 @@
         "Lê Thánh Tông",
         "Trần Thái Tông"
       ],
-      "correct": 0
+      "correct": 0,
+      "selectionMode": "single"
     },
     {
       "id": "q197",
@@ -2013,7 +3460,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "5",
+        "1075",
+        "16",
+        "58"
+      ],
+      "correct": 1
     },
     {
       "id": "q198",
@@ -2022,7 +3477,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lê Thánh Tông",
+        "1075",
+        "Lý Nhân Tông",
+        "Lý Thánh Tông"
+      ],
+      "correct": 2
     },
     {
       "id": "q199",
@@ -2038,7 +3501,8 @@
         "5",
         "6"
       ],
-      "correct": 2
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q200",
@@ -2047,7 +3511,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Vườn bia và giếng Thiên Quang",
+        "Thân Nhân Trung",
+        "Thành Đạt",
+        "Nam"
+      ],
+      "correct": 2
     },
     {
       "id": "q201",
@@ -2063,7 +3535,8 @@
         "Cổng chính",
         "Nhà hát"
       ],
-      "correct": 0
+      "correct": 0,
+      "selectionMode": "single"
     },
     {
       "id": "q202",
@@ -2079,7 +3552,8 @@
         "Đông",
         "Tây"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q203",
@@ -2088,7 +3562,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "58",
+        "1075",
+        "16",
+        "5"
+      ],
+      "correct": 0
     },
     {
       "id": "q204",
@@ -2097,7 +3579,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Lý Nhân Tông",
+        "Lý Thánh Tông",
+        "Lê Thánh Tông",
+        "58"
+      ],
+      "correct": 2
     },
     {
       "id": "q205",
@@ -2113,7 +3603,8 @@
         "Nguyễn Trãi",
         "Nguyễn Bỉnh Khiêm"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q206",
@@ -2122,7 +3613,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "5",
+        "58",
+        "16",
+        "1919, tại Huế"
+      ],
+      "correct": 2
     },
     {
       "id": "q207",
@@ -2131,7 +3630,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Nam",
+        "Bảo vật quốc gia",
+        "Thân Nhân Trung",
+        "Bí Văn và Súc Văn"
+      ],
+      "correct": 3
     },
     {
       "id": "q208",
@@ -2140,7 +3647,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Bảo vật quốc gia",
+        "Bí Văn và Súc Văn",
+        "Nam",
+        "Thân Nhân Trung"
+      ],
+      "correct": 0
     },
     {
       "id": "q209",
@@ -2149,7 +3664,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Đúng",
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
+      ],
+      "correct": 1
     },
     {
       "id": "q210",
@@ -2158,16 +3681,36 @@
       "difficulty": "hard",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1919, tại Huế",
+        "5",
+        "58",
+        "16"
+      ],
+      "correct": 0
     },
     {
       "id": "q211",
-      "prompt": "Nêu đủ Tứ phối.",
-      "answer": "Nhan Tử; Tăng Tử; Tử Tư; Mạnh Tử",
+      "prompt": "Chọn ba nhân vật thuộc Tứ phối trong các phương án sau.",
+      "answer": "Mạnh Tử; Nhan Tử; Tăng Tử",
       "difficulty": "hard",
       "category": "Đề mô phỏng B",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Mạnh Tử",
+        "Nhan Tử",
+        "Tăng Tử",
+        "Chu Văn An"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q212",
@@ -2183,16 +3726,29 @@
         "1070-Văn Miếu",
         "1484-Quốc Tử Giám"
       ],
-      "correct": 2
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q213",
-      "prompt": "Ba thành phần không gian lớn của di tích là gì?",
+      "prompt": "Chọn đúng ba thành phần không gian lớn của di tích.",
       "answer": "Hồ Văn; Vườn Giám; Nội tự",
       "difficulty": "easy",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Hồ Văn",
+        "Vườn Giám",
+        "Nội tự",
+        "Hoàng thành"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q214",
@@ -2208,7 +3764,8 @@
         "Đại Thành",
         "Thái Học"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q215",
@@ -2217,7 +3774,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Thờ tự",
+        "Nơi hành lễ",
+        "Thành Đạt",
+        "Trần"
+      ],
+      "correct": 0
     },
     {
       "id": "q216",
@@ -2226,7 +3791,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Nơi hành lễ",
+        "Thành Đạt",
+        "Thờ tự",
+        "Trần"
+      ],
+      "correct": 0
     },
     {
       "id": "q217",
@@ -2242,7 +3815,8 @@
         "Lê",
         "Nguyễn"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q218",
@@ -2251,7 +3825,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1831",
+        "1070-Văn Miếu",
+        "Nhâm Tuất 1442",
+        "9 gian, 40 cột gỗ lim"
+      ],
+      "correct": 0
     },
     {
       "id": "q219",
@@ -2260,7 +3842,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Nơi hành lễ",
+        "Trần",
+        "Dời Quốc Tử Giám vào Huế",
+        "Di tích quốc gia đặc biệt"
+      ],
+      "correct": 2
     },
     {
       "id": "q220",
@@ -2269,7 +3859,15 @@
       "difficulty": "easy",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Di tích quốc gia đặc biệt",
+        "Trần",
+        "Dời Quốc Tử Giám vào Huế",
+        "Kim Thanh và Ngọc Chấn"
+      ],
+      "correct": 0
     },
     {
       "id": "q221",
@@ -2278,7 +3876,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1831",
+        "Nhâm Tuất 1442",
+        "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+        "9 gian, 40 cột gỗ lim"
+      ],
+      "correct": 1
     },
     {
       "id": "q222",
@@ -2287,7 +3893,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Dời Quốc Tử Giám vào Huế",
+        "Di tích quốc gia đặc biệt",
+        "Kim Thanh và Ngọc Chấn",
+        "Tử Tư"
+      ],
+      "correct": 2
     },
     {
       "id": "q223",
@@ -2296,7 +3910,15 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "1831",
+        "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+        "9 gian, 40 cột gỗ lim",
+        "Nhâm Tuất 1442"
+      ],
+      "correct": 2
     },
     {
       "id": "q224",
@@ -2312,16 +3934,28 @@
         "Tử Tư",
         "Mạnh Tử"
       ],
-      "correct": 2
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q225",
-      "prompt": "Phân biệt 1779 và 1780.",
-      "answer": "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+      "prompt": "Chọn các nhận định đúng để phân biệt 1779 và 1780.",
+      "answer": "1779 là năm khoa thi cuối được bia ghi; 1780 là năm dựng bia cuối",
       "difficulty": "medium",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "1779 là năm khoa thi cuối được bia ghi",
+        "1780 là năm dựng bia cuối",
+        "1779 là năm dựng bia đầu tiên",
+        "1780 là năm khoa thi đầu tiên"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q226",
@@ -2330,25 +3964,56 @@
       "difficulty": "medium",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Đúng",
+        "Sai",
+        "Đúng một phần",
+        "Không đủ thông tin"
+      ],
+      "correct": 1
     },
     {
       "id": "q227",
-      "prompt": "Nêu hai chi tiết kiến trúc của Khuê Văn Các và ý nghĩa sao Khuê.",
-      "answer": "Bốn trụ gạch/bốn cửa sổ tròn; sao Khuê tượng trưng văn chương",
+      "prompt": "Chọn các mô tả đúng về Khuê Văn Các và sao Khuê.",
+      "answer": "Tầng dưới có bốn trụ gạch; Tầng trên có bốn cửa sổ tròn; Sao Khuê tượng trưng cho văn chương",
       "difficulty": "hard",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Tầng dưới có bốn trụ gạch",
+        "Tầng trên có bốn cửa sổ tròn",
+        "Sao Khuê tượng trưng cho văn chương",
+        "Sao Khuê tượng trưng riêng cho võ nghệ"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
     },
     {
       "id": "q228",
-      "prompt": "Phân biệt vai trò của Văn Miếu và Quốc Tử Giám trong một câu.",
+      "prompt": "Phát biểu nào mô tả đúng vai trò riêng của Văn Miếu và Quốc Tử Giám? (Chọn nhiều đáp án.)",
       "answer": "Văn Miếu gắn với thờ tự; Quốc Tử Giám gắn với đào tạo",
       "difficulty": "hard",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "multiple",
+      "options": [
+        "Văn Miếu gắn với thờ tự",
+        "Quốc Tử Giám gắn với đào tạo",
+        "Văn Miếu là nơi đào tạo duy nhất",
+        "Quốc Tử Giám chỉ là nơi thờ tự"
+      ],
+      "correct": [
+        0,
+        1
+      ]
     },
     {
       "id": "q229",
@@ -2357,7 +4022,15 @@
       "difficulty": "hard",
       "category": "Đề mô phỏng C",
       "source": "Đề mô phỏng theo PPTX",
-      "type": "text"
+      "type": "choice",
+      "selectionMode": "single",
+      "options": [
+        "Văn Miếu gắn với thờ tự; Quốc Tử Giám gắn với đào tạo",
+        "Hồ Văn; Vườn Giám; Nội tự",
+        "Bốn trụ gạch/bốn cửa sổ tròn; sao Khuê tượng trưng văn chương",
+        "Hiếu học, kính thầy, trọng người tài, giữ gìn di sản"
+      ],
+      "correct": 3
     },
     {
       "id": "q230",
@@ -2373,39 +4046,42 @@
         "Thời nhà Trần",
         "Thời nhà Nguyễn"
       ],
-      "correct": 0
+      "correct": 0,
+      "selectionMode": "single"
     },
     {
       "id": "q231",
-      "prompt": "Khuê Văn Các có bao nhiêu mái và tầng theo cách mô tả trong đề?",
-      "answer": "8 mái, 2 tầng",
+      "prompt": "Chọn mô tả đúng về số tầng mái của Khuê Văn Các.",
+      "answer": "2 tầng mái",
       "difficulty": "medium",
       "category": "Câu hỏi PPTX",
       "source": "PowerPoint 66 slide, đã chuẩn hóa",
       "type": "choice",
       "options": [
-        "4 mái, 2 tầng",
-        "8 mái, 2 tầng",
-        "12 mái, 3 tầng",
-        "16 mái, 4 tầng"
+        "1 tầng mái",
+        "2 tầng mái",
+        "4 tầng mái",
+        "8 tầng mái"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q232",
-      "prompt": "Trong triều đại nào, Quốc Tử Giám được mở rộng cho cả con em thường dân ưu tú theo học?",
-      "answer": "Triều Trần",
+      "prompt": "Vua nào cho tu sửa Quốc Tử Giám năm 1243?",
+      "answer": "Vua Trần Thái Tông",
       "difficulty": "hard",
       "category": "Câu hỏi PPTX",
       "source": "PowerPoint 66 slide, đã chuẩn hóa",
       "type": "choice",
       "options": [
-        "Triều Lý",
-        "Triều Trần",
-        "Triều Hồ",
-        "Triều Nguyễn"
+        "Vua Lý Thánh Tông",
+        "Vua Trần Thái Tông",
+        "Vua Lê Thánh Tông",
+        "Vua Gia Long"
       ],
-      "correct": 1
+      "correct": 1,
+      "selectionMode": "single"
     },
     {
       "id": "q233",
@@ -2421,7 +4097,8 @@
         "Di sản tư liệu thế giới",
         "Di sản văn hóa thế giới"
       ],
-      "correct": 2
+      "correct": 2,
+      "selectionMode": "single"
     },
     {
       "id": "q234",
@@ -2437,7 +4114,8 @@
         "Lễ dâng hương",
         "Lễ tuyên dương thủ khoa"
       ],
-      "correct": 0
+      "correct": 0,
+      "selectionMode": "single"
     }
   ]
 }
