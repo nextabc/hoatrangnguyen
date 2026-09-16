@@ -1,0 +1,2443 @@
+{
+  "meta": {
+    "title": "Hoa Trạng nguyên Văn Miếu - Quốc Tử Giám",
+    "secondsPerQuestion": 15,
+    "rounds": {
+      "easy": 10,
+      "medium": 8,
+      "hard": 5
+    },
+    "auditNote": "Hai câu sai trong PPTX đã được sửa: Nhâm Tuất 1442 dưới vua Lê Thái Tông; khoa Nho học cuối cùng năm 1919 diễn ra tại Huế."
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "prompt": "Văn Miếu được khởi dựng năm nào?",
+      "answer": "1070",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q002",
+      "prompt": "Ai cho dựng Văn Miếu?",
+      "answer": "Vua Lý Thánh Tông",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q003",
+      "prompt": "Khoa thi Nho học đầu tiên tổ chức năm nào?",
+      "answer": "1075",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q004",
+      "prompt": "Quốc Tử Giám được lập năm nào?",
+      "answer": "1076",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q005",
+      "prompt": "Ai cho lập Quốc Tử Giám?",
+      "answer": "Vua Lý Nhân Tông",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q006",
+      "prompt": "Văn Miếu ban đầu là nơi thờ ai?",
+      "answer": "Khổng Tử và các bậc Tiên Hiền, Tiên Nho",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q007",
+      "prompt": "Hoàng Thái tử nào từng học tại Văn Miếu?",
+      "answer": "Càn Đức",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q008",
+      "prompt": "Càn Đức sau trở thành vị vua nào?",
+      "answer": "Lý Nhân Tông",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q009",
+      "prompt": "Quốc Tử Giám có vai trò gì?",
+      "answer": "Trung tâm đào tạo cao cấp nhất Việt Nam thời quân chủ",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q010",
+      "prompt": "Hiện còn bao nhiêu bia Tiến sĩ?",
+      "answer": "82 bia",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q011",
+      "prompt": "Ai cho khởi dựng bia Tiến sĩ?",
+      "answer": "Vua Lê Thánh Tông",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q012",
+      "prompt": "Khởi dựng bia Tiến sĩ năm nào?",
+      "answer": "1484",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q013",
+      "prompt": "Bia Tiến sĩ ghi danh ai?",
+      "answer": "Những người đỗ các khoa thi Tiến sĩ được ghi trên bia",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q014",
+      "prompt": "Các khoa thi được 82 bia ghi lại diễn ra trong khoảng nào?",
+      "answer": "1442-1779",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q015",
+      "prompt": "82 bia được dựng trong khoảng nào theo UNESCO?",
+      "answer": "1484-1780",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q016",
+      "prompt": "UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới năm nào?",
+      "answer": "2011",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q017",
+      "prompt": "Di tích được công nhận Di tích quốc gia đặc biệt năm nào?",
+      "answer": "2012",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q018",
+      "prompt": "82 bia được công nhận Bảo vật quốc gia năm nào?",
+      "answer": "2015",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q019",
+      "prompt": "Danh nhân tiêu biểu từng làm Tư nghiệp Quốc Tử Giám?",
+      "answer": "Chu Văn An",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q020",
+      "prompt": "Chu Văn An làm Tư nghiệp dưới thời nào?",
+      "answer": "Thời Trần",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q021",
+      "prompt": "Nội tự được chia thành mấy khu vực chính?",
+      "answer": "5 khu",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q022",
+      "prompt": "Kể tên 5 khu Nội tự.",
+      "answer": "Nhập đạo; Thành Đạt; Vườn bia Tiến sĩ; Đại Thành; Thái Học",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q023",
+      "prompt": "Di tích nằm phía nào của Kinh thành Thăng Long?",
+      "answer": "Phía Nam",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q024",
+      "prompt": "Di tích quay mặt về hướng nào?",
+      "answer": "Hướng Nam",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q025",
+      "prompt": "Ba thành phần không gian lớn là gì?",
+      "answer": "Hồ Văn; Vườn Giám; Nội tự",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q026",
+      "prompt": "Công trình kiến trúc tiêu biểu thường được nhắc tới?",
+      "answer": "Khuê Văn Các",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q027",
+      "prompt": "Vua Trần Thái Tông tu sửa Quốc Tử Giám năm nào?",
+      "answer": "1243",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q028",
+      "prompt": "Vua nào mời Chu Văn An làm Tư nghiệp?",
+      "answer": "Vua Trần Minh Tông",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q029",
+      "prompt": "Lê Thánh Tông mở rộng Quốc Tử Giám năm nào?",
+      "answer": "1483",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q030",
+      "prompt": "Vua Gia Long dời Quốc Tử Giám vào Huế năm nào?",
+      "answer": "1802",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q031",
+      "prompt": "Năm 1805, Quốc Tử Giám Thăng Long trở thành gì?",
+      "answer": "Học đường phủ Hoài Đức",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q032",
+      "prompt": "Văn Miếu Bắc Thành đổi tên thành Văn Miếu Hà Nội năm nào?",
+      "answer": "1831",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q033",
+      "prompt": "Nhà nước công nhận di tích cấp Quốc gia năm nào?",
+      "answer": "1962",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q034",
+      "prompt": "Khu Thái Học hiện nay khởi công và hoàn thành vào những năm nào?",
+      "answer": "Khởi công 1999; hoàn thành 2000",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q035",
+      "prompt": "Năm 2026 kỷ niệm bao nhiêu năm Quốc Tử Giám?",
+      "answer": "950 năm",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q036",
+      "prompt": "950 năm được tính từ hai mốc nào?",
+      "answer": "1076-2026",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q037",
+      "prompt": "Hai truyền thống giáo dục tiêu biểu là gì?",
+      "answer": "Hiếu học và tôn sư trọng đạo",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q038",
+      "prompt": "Vì sao cần gìn giữ bia Tiến sĩ?",
+      "answer": "Vì là tư liệu quý về giáo dục, khoa cử và người tài",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q039",
+      "prompt": "Văn Miếu và Quốc Tử Giám có lập cùng năm không?",
+      "answer": "Không",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q040",
+      "prompt": "Điều gì phân biệt Văn Miếu với Quốc Tử Giám?",
+      "answer": "Văn Miếu gắn với thờ tự; Quốc Tử Giám gắn với đào tạo",
+      "difficulty": "easy",
+      "category": "Kiến thức lõi",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q041",
+      "prompt": "Văn Miếu được dựng năm 1076.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - 1070"
+    },
+    {
+      "id": "q042",
+      "prompt": "Quốc Tử Giám được lập năm 1076.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q043",
+      "prompt": "Lý Nhân Tông cho dựng Văn Miếu.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - Lý Thánh Tông"
+    },
+    {
+      "id": "q044",
+      "prompt": "Lê Thánh Tông cho khởi dựng bia Tiến sĩ.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q045",
+      "prompt": "1483 là năm khởi dựng bia Tiến sĩ.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - mở rộng Quốc Tử Giám; bia là 1484"
+    },
+    {
+      "id": "q046",
+      "prompt": "Hiện còn 82 bia Tiến sĩ.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q047",
+      "prompt": "Bia khoa thi 1442 được dựng ngay năm 1442.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - dựng năm 1484"
+    },
+    {
+      "id": "q048",
+      "prompt": "Các bia ghi khoa thi từ 1442 đến 1779.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q049",
+      "prompt": "Chu Văn An là vị vua lập Quốc Tử Giám.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - là nhà giáo, Tư nghiệp"
+    },
+    {
+      "id": "q050",
+      "prompt": "Càn Đức sau là vua Lý Nhân Tông.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q051",
+      "prompt": "Nội tự có 5 khu chính.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q052",
+      "prompt": "Vườn Giám và Vườn bia là hai cách gọi luôn đồng nghĩa.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai"
+    },
+    {
+      "id": "q053",
+      "prompt": "Di tích nằm phía Nam Kinh thành Thăng Long.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q054",
+      "prompt": "Di tích quay mặt về hướng Bắc.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - hướng Nam"
+    },
+    {
+      "id": "q055",
+      "prompt": "2011 là năm di tích được công nhận Di tích quốc gia đặc biệt.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - 2012"
+    },
+    {
+      "id": "q056",
+      "prompt": "2015, 82 bia được công nhận Bảo vật quốc gia.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q057",
+      "prompt": "Khu Thái Học hiện nay khởi công năm 1999 và hoàn thành năm 2000.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q058",
+      "prompt": "Quốc Tử Giám chỉ có chức năng thờ Khổng Tử.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai"
+    },
+    {
+      "id": "q059",
+      "prompt": "Văn Miếu gắn với truyền thống tôn sư trọng đạo.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q060",
+      "prompt": "Năm 2026 là 950 năm kể từ 1070.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - 1076 đến 2026"
+    },
+    {
+      "id": "q061",
+      "prompt": "Lý Thánh Tông và Lê Thánh Tông là cùng một người.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai"
+    },
+    {
+      "id": "q062",
+      "prompt": "1802, Quốc Tử Giám được dời vào Huế.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q063",
+      "prompt": "1831, Văn Miếu Bắc Thành đổi tên thành Văn Miếu Hà Nội.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q064",
+      "prompt": "1962 là mốc UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai - 2011"
+    },
+    {
+      "id": "q065",
+      "prompt": "Khuê Văn Các là một công trình trong Văn Miếu - Quốc Tử Giám.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q066",
+      "prompt": "82 bia chỉ có giá trị trang trí.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai"
+    },
+    {
+      "id": "q067",
+      "prompt": "Bia Tiến sĩ góp phần cho thấy lịch sử tuyển chọn người tài.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q068",
+      "prompt": "Văn Miếu và Quốc Tử Giám được thành lập cùng một vị vua.",
+      "answer": "Sai",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 1,
+      "explanation": "Sai"
+    },
+    {
+      "id": "q069",
+      "prompt": "Khu Đại Thành thuộc 5 khu Nội tự.",
+      "answer": "Đúng",
+      "difficulty": "medium",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q070",
+      "prompt": "Hồ Văn, Vườn Giám và Nội tự là ba thành phần lớn của di tích.",
+      "answer": "Đúng",
+      "difficulty": "easy",
+      "category": "Đúng / Sai",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0,
+      "explanation": "Đúng"
+    },
+    {
+      "id": "q071",
+      "prompt": "Sắp xếp 1076, 1484, 1070, 1075 theo thời gian.",
+      "answer": "1070 - 1075 - 1076 - 1484",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q072",
+      "prompt": "Ghép ba vua với ba việc: Văn Miếu, Quốc Tử Giám, bia.",
+      "answer": "Lý Thánh Tông - Văn Miếu; Lý Nhân Tông - Quốc Tử Giám; Lê Thánh Tông - bia",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q073",
+      "prompt": "Mốc nào không thuộc thời Lý: 1070, 1075, 1076, 1484?",
+      "answer": "1484",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q074",
+      "prompt": "Mốc nào sớm hơn: mở rộng Quốc Tử Giám hay khởi dựng bia?",
+      "answer": "Mở rộng năm 1483, sớm hơn bia năm 1484",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q075",
+      "prompt": "Vì sao khoa thi 1442 nhưng bia ghi khoa ấy dựng năm 1484?",
+      "answer": "Bia được truy dựng sau",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q076",
+      "prompt": "Phân biệt Di sản tư liệu thế giới và Di tích quốc gia đặc biệt.",
+      "answer": "Bia Tiến sĩ: UNESCO công nhận năm 2011; toàn di tích: Nhà nước công nhận năm 2012",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q077",
+      "prompt": "Nếu hỏi 'ai lập trường', chọn vị vua nào?",
+      "answer": "Lý Nhân Tông",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q078",
+      "prompt": "Nếu hỏi 'ai dựng nơi thờ', chọn vị vua nào?",
+      "answer": "Lý Thánh Tông",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q079",
+      "prompt": "Nếu hỏi 'ai khuyến khích khắc danh người đỗ', chọn vị vua nào?",
+      "answer": "Lê Thánh Tông",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q080",
+      "prompt": "Tư nghiệp là từ khóa gắn với danh nhân nào?",
+      "answer": "Chu Văn An",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q081",
+      "prompt": "Học trò Càn Đức gắn với nơi nào trước khi làm vua?",
+      "answer": "Văn Miếu",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q082",
+      "prompt": "Nêu một bằng chứng bia có giá trị tư liệu.",
+      "answer": "Ghi tên người đỗ và thông tin các khoa thi",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q083",
+      "prompt": "Nêu bốn giá trị của di tích trong một câu.",
+      "answer": "Hiếu học, tôn sư trọng đạo, trọng dụng nhân tài, gìn giữ di sản",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q084",
+      "prompt": "Một câu có cả 1070 và Quốc Tử Giám, cần cảnh giác điều gì?",
+      "answer": "Sai ghép mốc; Quốc Tử Giám là 1076",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q085",
+      "prompt": "Một câu có 2011 và Di tích quốc gia đặc biệt, sửa ra sao?",
+      "answer": "2011 UNESCO công nhận Bia Tiến sĩ là Di sản tư liệu thế giới; quốc gia đặc biệt là 2012",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q086",
+      "prompt": "Từ 1076 đến 2026 là bao nhiêu năm?",
+      "answer": "950 năm",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q087",
+      "prompt": "Từ 1070 đến 2026 là bao nhiêu năm?",
+      "answer": "956 năm",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q088",
+      "prompt": "Bia được dựng đến 1780 nhưng khoa thi ghi đến 1779 có mâu thuẫn không?",
+      "answer": "Không; năm dựng bia và năm khoa thi là hai mốc khác nhau",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q089",
+      "prompt": "Vì sao không nên nói mọi người học ở Quốc Tử Giám đều có tên trên bia?",
+      "answer": "Bia ghi người đỗ các khoa thi được khắc, không phải toàn bộ người học",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q090",
+      "prompt": "Một câu hỏi có từ 'ngoại trừ' phải xử lý thế nào?",
+      "answer": "Đánh dấu từ phủ định, tìm phương án không thuộc nhóm",
+      "difficulty": "hard",
+      "category": "Câu phân loại",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q091",
+      "prompt": "Khuê Văn Các được xây năm nào?",
+      "answer": "1805",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q092",
+      "prompt": "Ai cho xây Khuê Văn Các?",
+      "answer": "Tổng trấn Nguyễn Văn Thành",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q093",
+      "prompt": "Khuê Văn Các thuộc khu thứ mấy của Nội tự?",
+      "answer": "Khu thứ hai - Thành Đạt",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q094",
+      "prompt": "Tầng dưới Khuê Văn Các có bao nhiêu trụ gạch?",
+      "answer": "4 trụ",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q095",
+      "prompt": "Tầng trên Khuê Văn Các được làm chủ yếu bằng vật liệu gì?",
+      "answer": "Gỗ",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q096",
+      "prompt": "Bốn mặt tầng trên có loại cửa sổ gì?",
+      "answer": "Cửa sổ tròn",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q097",
+      "prompt": "Sao Khuê theo quan niệm xưa tượng trưng cho điều gì?",
+      "answer": "Văn chương/học vấn",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q098",
+      "prompt": "Chòm sao Khuê gồm bao nhiêu ngôi sao?",
+      "answer": "16 ngôi sao",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q099",
+      "prompt": "Hai cửa nhỏ hai bên Khuê Văn Các tên là gì?",
+      "answer": "Bí Văn và Súc Văn",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q100",
+      "prompt": "Công trình nào nằm ngay trước giếng Thiên Quang trên trục chính?",
+      "answer": "Khuê Văn Các",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q101",
+      "prompt": "Giếng vuông trong khu Vườn bia tên là gì?",
+      "answer": "Giếng Thiên Quang",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q102",
+      "prompt": "Hai cửa bên Cổng Đại Thành tên là gì?",
+      "answer": "Kim Thanh và Ngọc Chấn",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q103",
+      "prompt": "Cổng Đại Thành có mấy gian?",
+      "answer": "3 gian",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q104",
+      "prompt": "Nhà Bái Đường thuộc Khu Đại Thành dùng để làm gì?",
+      "answer": "Nơi hành lễ",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q105",
+      "prompt": "Điện Đại Thành có bao nhiêu gian?",
+      "answer": "9 gian",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q106",
+      "prompt": "Nhà Bái Đường có bao nhiêu cột gỗ lim?",
+      "answer": "40 cột",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q107",
+      "prompt": "Khu Thái Học hiện nay khởi công xây dựng năm nào?",
+      "answer": "1999",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q108",
+      "prompt": "Khu Thái Học hiện nay hoàn thành năm nào?",
+      "answer": "2000",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q109",
+      "prompt": "Tầng dưới Hậu Đường thờ ai?",
+      "answer": "Chu Văn An",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q110",
+      "prompt": "Tầng trên Hậu Đường thờ ba vị vua nào?",
+      "answer": "Lý Thánh Tông, Lý Nhân Tông, Lê Thánh Tông",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q111",
+      "prompt": "Theo cách mô tả trong đề test, Khuê Văn Các có bao nhiêu tầng kiến trúc và phần mái được gọi thế nào?",
+      "answer": "2 tầng kiến trúc; 2 tầng mái, thường gọi tổng cộng 8 mái",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q112",
+      "prompt": "Các câu đối ở bốn mặt Khuê Văn Các ca ngợi điều gì?",
+      "answer": "Văn hiến/văn chương và sao Khuê",
+      "difficulty": "medium",
+      "category": "Kiến trúc",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q113",
+      "prompt": "82 bia Tiến sĩ được đặt trên lưng con vật nào?",
+      "answer": "Rùa đá",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q114",
+      "prompt": "Các bia được phân bố ở hai phía nào của giếng Thiên Quang?",
+      "answer": "Phía Đông và phía Tây",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q115",
+      "prompt": "Mỗi phía Đông/Tây có bao nhiêu bia?",
+      "answer": "41 bia",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q116",
+      "prompt": "82 bia ghi các khoa thi trong khoảng nào?",
+      "answer": "1442-1779",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q117",
+      "prompt": "UNESCO ghi nhận khoảng thời gian dựng các bia còn lại là khi nào?",
+      "answer": "1484-1780",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q118",
+      "prompt": "Bia cổ nhất còn lại ghi khoa thi năm nào?",
+      "answer": "1442",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q119",
+      "prompt": "Khoa thi năm 1442 có tên can chi gì?",
+      "answer": "Nhâm Tuất",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q120",
+      "prompt": "Bia khoa 1442 được dựng năm nào?",
+      "answer": "1484",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q121",
+      "prompt": "Bia khoa 1442 được dựng sau khoa thi bao nhiêu năm?",
+      "answer": "42 năm",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q122",
+      "prompt": "Khoa Nhâm Tuất 1442 có bao nhiêu người đỗ được ghi trên bia?",
+      "answer": "33 người",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q123",
+      "prompt": "Vua nào tổ chức khoa thi 1442?",
+      "answer": "Lê Thái Tông",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q124",
+      "prompt": "Vua nào cho dựng bia của khoa thi 1442?",
+      "answer": "Lê Thánh Tông",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q125",
+      "prompt": "Ai soạn bài ký nổi tiếng có câu 'Hiền tài là nguyên khí của quốc gia'?",
+      "answer": "Thân Nhân Trung",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q126",
+      "prompt": "Điền từ: '... là nguyên khí của quốc gia'.",
+      "answer": "Hiền tài",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q127",
+      "prompt": "Khoa thi Nho học đầu tiên của nước ta diễn ra năm nào?",
+      "answer": "1075",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q128",
+      "prompt": "Quốc Tử Giám được lập sau khoa thi đầu tiên bao nhiêu năm?",
+      "answer": "1 năm",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q129",
+      "prompt": "Vua Trần Thái Tông cho tu sửa Quốc Tử Giám năm nào?",
+      "answer": "1243",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q130",
+      "prompt": "Quốc Tử Giám được chuyển vào Huế năm nào?",
+      "answer": "1802",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q131",
+      "prompt": "Khoa thi Nho học cuối cùng của Việt Nam diễn ra năm nào, ở đâu?",
+      "answer": "1919, tại Huế",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q132",
+      "prompt": "Vì sao 1779 và 1780 đều có thể xuất hiện trong câu hỏi về bia?",
+      "answer": "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q133",
+      "prompt": "Mốc 1253 thời Trần gắn với sự kiện giáo dục nào?",
+      "answer": "Triều Trần lập Quốc Học viện để giảng dạy kinh điển; một số tài liệu chính thức mô tả việc mở rộng cho người học giỏi xuất thân bình dân",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q134",
+      "prompt": "Phân biệt hai mốc UNESCO 2010 và 2011 của 82 bia Tiến sĩ.",
+      "answer": "2010: cấp khu vực Châu Á - Thái Bình Dương; 2011: cấp thế giới/toàn cầu",
+      "difficulty": "medium",
+      "category": "Bia Tiến sĩ và khoa cử",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q135",
+      "prompt": "Chu Văn An sinh và mất năm nào?",
+      "answer": "1292-1370",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q136",
+      "prompt": "Chu Văn An là nhà giáo tiêu biểu của triều đại nào?",
+      "answer": "Triều Trần",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q137",
+      "prompt": "Chu Văn An giữ chức gì tại Quốc Tử Giám?",
+      "answer": "Tư nghiệp",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q138",
+      "prompt": "Chu Văn An dâng bản sớ nổi tiếng nào?",
+      "answer": "Thất trảm sớ",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q139",
+      "prompt": "Văn Miếu thờ nhân vật trung tâm nào?",
+      "answer": "Khổng Tử",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q140",
+      "prompt": "Tứ phối gồm những ai?",
+      "answer": "Nhan Tử, Tăng Tử, Tử Tư, Mạnh Tử",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q141",
+      "prompt": "Nhan Hồi còn được gọi là gì?",
+      "answer": "Nhan Tử",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q142",
+      "prompt": "Tăng Sâm còn được gọi là gì?",
+      "answer": "Tăng Tử",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q143",
+      "prompt": "Khổng Cấp còn được gọi là gì?",
+      "answer": "Tử Tư",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q144",
+      "prompt": "Mạnh Kha còn được gọi là gì?",
+      "answer": "Mạnh Tử",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q145",
+      "prompt": "Địa chỉ hiện nay của di tích là gì?",
+      "answer": "58 Quốc Tử Giám, Hà Nội",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q146",
+      "prompt": "Di tích hiện thuộc phường nào?",
+      "answer": "Phường Văn Miếu - Quốc Tử Giám",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q147",
+      "prompt": "Sự kiện văn hóa đầu xuân tại di tích có tên chính thức là gì?",
+      "answer": "Hội chữ Xuân",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q148",
+      "prompt": "Nêu bốn nhóm giá trị của di tích theo đề test.",
+      "answer": "Lịch sử, văn hóa, giáo dục, nghệ thuật",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q149",
+      "prompt": "Quốc Tử Giám có nhiệm vụ chính gì?",
+      "answer": "Đào tạo người tài cho đất nước",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q150",
+      "prompt": "Bia Tiến sĩ thể hiện truyền thống nào?",
+      "answer": "Hiếu học và trọng dụng nhân tài",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q151",
+      "prompt": "Hành vi nào đúng khi tham quan di tích?",
+      "answer": "Giữ vệ sinh, tuân thủ quy định, không làm hư hại hiện vật",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q152",
+      "prompt": "Năm 2011, đối tượng nào được UNESCO ghi danh?",
+      "answer": "82 bia Tiến sĩ",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q153",
+      "prompt": "Năm 2012, đối tượng nào được công nhận Di tích quốc gia đặc biệt?",
+      "answer": "Toàn di tích Văn Miếu - Quốc Tử Giám",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q154",
+      "prompt": "Năm 2015, 82 bia Tiến sĩ được công nhận là gì?",
+      "answer": "Bảo vật quốc gia",
+      "difficulty": "easy",
+      "category": "Danh nhân và giá trị",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q155",
+      "prompt": "Where is the Temple of Literature located?",
+      "answer": "In Ha Noi.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q156",
+      "prompt": "When was the Temple of Literature built?",
+      "answer": "In 1070.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q157",
+      "prompt": "When was the Imperial Academy founded?",
+      "answer": "In 1076.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q158",
+      "prompt": "Who built the Temple of Literature?",
+      "answer": "King Ly Thanh Tong.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q159",
+      "prompt": "Who founded the Imperial Academy?",
+      "answer": "King Ly Nhan Tong.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q160",
+      "prompt": "Who is worshipped at the Temple of Literature?",
+      "answer": "Confucius and sages.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q161",
+      "prompt": "How many doctoral steles remain today?",
+      "answer": "Eighty-two.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q162",
+      "prompt": "What are the doctoral steles placed on?",
+      "answer": "Stone turtles.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q163",
+      "prompt": "What do the doctoral steles record?",
+      "answer": "The names of doctoral laureates and royal examinations.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q164",
+      "prompt": "What can visitors see there?",
+      "answer": "Doctoral steles and ancient buildings.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q165",
+      "prompt": "What was the Imperial Academy used for?",
+      "answer": "To educate and train talented people.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q166",
+      "prompt": "What is a famous symbol of the site?",
+      "answer": "Khue Van Pavilion.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q167",
+      "prompt": "Which tradition does the site represent?",
+      "answer": "The tradition of learning and respect for teachers.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q168",
+      "prompt": "What does 'doctoral stele' mean in Vietnamese?",
+      "answer": "Bia Tiến sĩ.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q169",
+      "prompt": "What does 'ancient buildings' mean in Vietnamese?",
+      "answer": "Các công trình kiến trúc cổ.",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q170",
+      "prompt": "Choose the correct year: The Imperial Academy was founded in A.1070 B.1076 C.1484 D.1805.",
+      "answer": "B",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q171",
+      "prompt": "Choose the correct place: The Temple of Literature is in A.Hue B.Hoi An C.Ha Noi D.Da Nang.",
+      "answer": "C",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q172",
+      "prompt": "Complete: There are ... doctoral steles today.",
+      "answer": "82/eighty-two",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q173",
+      "prompt": "True or false: The Temple of Literature is in Hue.",
+      "answer": "False",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q174",
+      "prompt": "True or false: Visitors can see doctoral steles at the site.",
+      "answer": "True",
+      "difficulty": "medium",
+      "category": "Tiếng Anh",
+      "source": "Tài liệu audit",
+      "type": "choice",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q175",
+      "prompt": "Nêu đủ bốn mốc vàng theo thứ tự.",
+      "answer": "1070 Văn Miếu; 1075 khoa thi đầu tiên; 1076 Quốc Tử Giám; 1484 khởi dựng bia",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q176",
+      "prompt": "Nêu năm khu Nội tự theo thứ tự.",
+      "answer": "Nhập đạo; Thành Đạt; Vườn bia; Đại Thành; Thái Học",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q177",
+      "prompt": "Nêu ba vị vua được thờ ở tầng trên Hậu Đường.",
+      "answer": "Lý Thánh Tông; Lý Nhân Tông; Lê Thánh Tông",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q178",
+      "prompt": "Phân biệt ngắn 1442 và 1484.",
+      "answer": "1442 là năm khoa thi; 1484 là năm dựng bia ghi khoa ấy",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q179",
+      "prompt": "Phân biệt ngắn 1779 và 1780.",
+      "answer": "1779 là năm khoa thi cuối được bia ghi; 1780 là năm dựng bia cuối",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q180",
+      "prompt": "Nêu hai chi tiết hình học nổi bật của Khuê Văn Các.",
+      "answer": "Bốn trụ gạch; bốn cửa sổ tròn",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q181",
+      "prompt": "Tên hai cửa bên Khuê Văn Các?",
+      "answer": "Bí Văn và Súc Văn",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q182",
+      "prompt": "Tên hai cửa bên Cổng Đại Thành?",
+      "answer": "Kim Thanh và Ngọc Chấn",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q183",
+      "prompt": "Who was Chu Van An?",
+      "answer": "A famous teacher and an official of the Imperial Academy.",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q184",
+      "prompt": "Trong một câu, nêu ý nghĩa của Văn Miếu - Quốc Tử Giám hôm nay.",
+      "answer": "Nhắc thế hệ trẻ chăm học, kính trọng thầy cô, coi trọng người tài và gìn giữ di sản",
+      "difficulty": "hard",
+      "category": "Câu phụ phân hạng",
+      "source": "Tài liệu audit",
+      "type": "text"
+    },
+    {
+      "id": "q185",
+      "prompt": "Văn Miếu được xây dựng dưới triều đại nào?",
+      "answer": "Lý",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Trần",
+        "Lý",
+        "Lê",
+        "Nguyễn"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q186",
+      "prompt": "Điền từ: Quốc Tử Giám thường được giới thiệu là trường ... đầu tiên của Việt Nam.",
+      "answer": "đại học",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q187",
+      "prompt": "Văn Miếu chủ yếu thờ ai?",
+      "answer": "Khổng Tử và các bậc hiền triết",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Khổng Tử và các bậc hiền triết",
+        "Các vua Lý",
+        "Các tướng",
+        "Các nghệ nhân"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q188",
+      "prompt": "Biểu tượng kiến trúc nổi tiếng của di tích là gì?",
+      "answer": "Khuê Văn Các",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q189",
+      "prompt": "Bia Tiến sĩ được đặt trên lưng con vật nào?",
+      "answer": "Rùa đá",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q190",
+      "prompt": "Hành vi nào đúng?",
+      "answer": "Giữ vệ sinh, không làm hư hại",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Viết tên lên tường",
+        "Sờ đầu rùa",
+        "Giữ vệ sinh, không làm hư hại",
+        "Trèo lên bia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q191",
+      "prompt": "Diện tích công bố chính thức của di tích xấp xỉ bao nhiêu?",
+      "answer": "54.331 m²",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "5.400 m²",
+        "54.331 m²",
+        "543.310 m²",
+        "1.530 m²"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q192",
+      "prompt": "UNESCO ghi danh 82 bia Tiến sĩ là gì?",
+      "answer": "Di sản tư liệu thế giới",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Di sản thiên nhiên",
+        "Di sản tư liệu thế giới",
+        "Di sản phi vật thể",
+        "Kỳ quan"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q193",
+      "prompt": "Hai phía Đông và Tây của giếng Thiên Quang có bao nhiêu bia mỗi phía?",
+      "answer": "41",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q194",
+      "prompt": "Nêu hai truyền thống giáo dục tiêu biểu gắn với di tích.",
+      "answer": "Hiếu học; tôn sư trọng đạo",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q195",
+      "prompt": "Bia khoa Nhâm Tuất 1442 được dựng năm nào?",
+      "answer": "1484",
+      "difficulty": "hard",
+      "category": "Đề mô phỏng A",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q196",
+      "prompt": "Ai cho dựng Văn Miếu năm 1070?",
+      "answer": "Lý Thánh Tông",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Lý Thánh Tông",
+        "Lý Nhân Tông",
+        "Lê Thánh Tông",
+        "Trần Thái Tông"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q197",
+      "prompt": "Khoa thi Nho học đầu tiên diễn ra năm nào?",
+      "answer": "1075",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q198",
+      "prompt": "Hoàng thái tử Càn Đức sau trở thành vua nào?",
+      "answer": "Lý Nhân Tông",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q199",
+      "prompt": "Nội tự có bao nhiêu khu chính?",
+      "answer": "5",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q200",
+      "prompt": "Khu thứ hai có Khuê Văn Các gọi là gì?",
+      "answer": "Thành Đạt",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q201",
+      "prompt": "Khu thứ ba nổi bật với gì?",
+      "answer": "Vườn bia và giếng Thiên Quang",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Vườn bia và giếng Thiên Quang",
+        "Hồ Văn",
+        "Cổng chính",
+        "Nhà hát"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q202",
+      "prompt": "Văn Miếu - Quốc Tử Giám quay mặt về hướng nào?",
+      "answer": "Nam",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Bắc",
+        "Nam",
+        "Đông",
+        "Tây"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q203",
+      "prompt": "Địa chỉ hiện nay bắt đầu bằng số nhà nào?",
+      "answer": "58",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q204",
+      "prompt": "Vua nào cho khởi dựng bia Tiến sĩ năm 1484?",
+      "answer": "Lê Thánh Tông",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q205",
+      "prompt": "Người soạn câu 'Hiền tài là nguyên khí của quốc gia' là ai?",
+      "answer": "Thân Nhân Trung",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Chu Văn An",
+        "Thân Nhân Trung",
+        "Nguyễn Trãi",
+        "Nguyễn Bỉnh Khiêm"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q206",
+      "prompt": "Sao Khuê gồm bao nhiêu ngôi sao?",
+      "answer": "16",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q207",
+      "prompt": "Hai cửa nhỏ hai bên Khuê Văn Các là gì?",
+      "answer": "Bí Văn và Súc Văn",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q208",
+      "prompt": "Năm 2015, 82 bia được công nhận là gì?",
+      "answer": "Bảo vật quốc gia",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q209",
+      "prompt": "Đúng hay sai: Bia ghi tên tất cả học sinh từng học tại Quốc Tử Giám.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q210",
+      "prompt": "Khoa Nho học cuối cùng của Việt Nam diễn ra năm nào, ở đâu?",
+      "answer": "1919, tại Huế",
+      "difficulty": "hard",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q211",
+      "prompt": "Nêu đủ Tứ phối.",
+      "answer": "Nhan Tử; Tăng Tử; Tử Tư; Mạnh Tử",
+      "difficulty": "hard",
+      "category": "Đề mô phỏng B",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q212",
+      "prompt": "Mốc nào đúng?",
+      "answer": "1070-Văn Miếu",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "1070-Quốc Tử Giám",
+        "1076-Văn Miếu",
+        "1070-Văn Miếu",
+        "1484-Quốc Tử Giám"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q213",
+      "prompt": "Ba thành phần không gian lớn của di tích là gì?",
+      "answer": "Hồ Văn; Vườn Giám; Nội tự",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q214",
+      "prompt": "Khuê Văn Các thuộc khu nào?",
+      "answer": "Thành Đạt",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Nhập đạo",
+        "Thành Đạt",
+        "Đại Thành",
+        "Thái Học"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q215",
+      "prompt": "Điện Đại Thành là không gian chính về chức năng nào?",
+      "answer": "Thờ tự",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q216",
+      "prompt": "Bái Đường dùng để làm gì?",
+      "answer": "Nơi hành lễ",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q217",
+      "prompt": "Chu Văn An gắn với triều đại nào?",
+      "answer": "Trần",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Lý",
+        "Trần",
+        "Lê",
+        "Nguyễn"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q218",
+      "prompt": "Văn Miếu Hà Nội được gọi bằng tên này từ năm nào?",
+      "answer": "1831",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q219",
+      "prompt": "Năm 1802 diễn ra việc gì?",
+      "answer": "Dời Quốc Tử Giám vào Huế",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q220",
+      "prompt": "Năm 2012, toàn di tích được công nhận danh hiệu gì?",
+      "answer": "Di tích quốc gia đặc biệt",
+      "difficulty": "easy",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q221",
+      "prompt": "Bia cổ nhất còn lại ghi khoa thi có tên gì?",
+      "answer": "Nhâm Tuất 1442",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q222",
+      "prompt": "Hai cửa bên Cổng Đại Thành tên gì?",
+      "answer": "Kim Thanh và Ngọc Chấn",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q223",
+      "prompt": "Nhà Bái Đường có bao nhiêu gian và bao nhiêu cột gỗ lim?",
+      "answer": "9 gian, 40 cột gỗ lim",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q224",
+      "prompt": "Tứ phối có nhân vật nào là cháu nội Khổng Tử?",
+      "answer": "Tử Tư",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "choice",
+      "options": [
+        "Nhan Tử",
+        "Tăng Tử",
+        "Tử Tư",
+        "Mạnh Tử"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q225",
+      "prompt": "Phân biệt 1779 và 1780.",
+      "answer": "1779 là năm khoa thi cuối được ghi; 1780 là năm dựng bia cuối",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q226",
+      "prompt": "Đúng hay sai: 1919 là khoa thi cuối diễn ra tại Quốc Tử Giám Hà Nội.",
+      "answer": "Sai",
+      "difficulty": "medium",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q227",
+      "prompt": "Nêu hai chi tiết kiến trúc của Khuê Văn Các và ý nghĩa sao Khuê.",
+      "answer": "Bốn trụ gạch/bốn cửa sổ tròn; sao Khuê tượng trưng văn chương",
+      "difficulty": "hard",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q228",
+      "prompt": "Phân biệt vai trò của Văn Miếu và Quốc Tử Giám trong một câu.",
+      "answer": "Văn Miếu gắn với thờ tự; Quốc Tử Giám gắn với đào tạo",
+      "difficulty": "hard",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q229",
+      "prompt": "Trong một câu, nêu ý nghĩa của di tích đối với học sinh hôm nay.",
+      "answer": "Hiếu học, kính thầy, trọng người tài, giữ gìn di sản",
+      "difficulty": "hard",
+      "category": "Đề mô phỏng C",
+      "source": "Đề mô phỏng theo PPTX",
+      "type": "text"
+    },
+    {
+      "id": "q230",
+      "prompt": "Văn Miếu - Quốc Tử Giám được bắt đầu xây dựng vào thời kì nào?",
+      "answer": "Thời nhà Lý",
+      "difficulty": "easy",
+      "category": "Câu hỏi PPTX",
+      "source": "PowerPoint 66 slide, đã chuẩn hóa",
+      "type": "choice",
+      "options": [
+        "Thời nhà Lý",
+        "Thời nhà Lê",
+        "Thời nhà Trần",
+        "Thời nhà Nguyễn"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q231",
+      "prompt": "Khuê Văn Các có bao nhiêu mái và tầng theo cách mô tả trong đề?",
+      "answer": "8 mái, 2 tầng",
+      "difficulty": "medium",
+      "category": "Câu hỏi PPTX",
+      "source": "PowerPoint 66 slide, đã chuẩn hóa",
+      "type": "choice",
+      "options": [
+        "4 mái, 2 tầng",
+        "8 mái, 2 tầng",
+        "12 mái, 3 tầng",
+        "16 mái, 4 tầng"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q232",
+      "prompt": "Trong triều đại nào, Quốc Tử Giám được mở rộng cho cả con em thường dân ưu tú theo học?",
+      "answer": "Triều Trần",
+      "difficulty": "hard",
+      "category": "Câu hỏi PPTX",
+      "source": "PowerPoint 66 slide, đã chuẩn hóa",
+      "type": "choice",
+      "options": [
+        "Triều Lý",
+        "Triều Trần",
+        "Triều Hồ",
+        "Triều Nguyễn"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q233",
+      "prompt": "Hệ thống bia Tiến sĩ tại Văn Miếu - Quốc Tử Giám được UNESCO công nhận là gì?",
+      "answer": "Di sản tư liệu thế giới",
+      "difficulty": "medium",
+      "category": "Câu hỏi PPTX",
+      "source": "PowerPoint 66 slide, đã chuẩn hóa",
+      "type": "choice",
+      "options": [
+        "Di sản thiên nhiên thế giới",
+        "Di sản văn hóa phi vật thể",
+        "Di sản tư liệu thế giới",
+        "Di sản văn hóa thế giới"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q234",
+      "prompt": "Lễ hội đầu xuân đặc trưng tại Văn Miếu - Quốc Tử Giám có tên chính thức là gì?",
+      "answer": "Hội chữ Xuân",
+      "difficulty": "easy",
+      "category": "Câu hỏi PPTX",
+      "source": "PowerPoint 66 slide, đã chuẩn hóa",
+      "type": "choice",
+      "options": [
+        "Hội chữ Xuân",
+        "Lễ hội viết thư pháp",
+        "Lễ dâng hương",
+        "Lễ tuyên dương thủ khoa"
+      ],
+      "correct": 0
+    }
+  ]
+}
