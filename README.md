@@ -47,4 +47,3 @@ Thư mục `dist` là bản web tĩnh sẵn sàng triển khai.
 ## Cơ sở dữ liệu câu hỏi
 
 Tệp `src/data/questionBank.json` chứa ngân hàng câu hỏi. Script `scripts/build_question_bank.py` tái tạo dữ liệu từ tài liệu kế hoạch gốc trong workspace. Script `scripts/audit-game.mjs` kiểm tra số câu, cấu trúc bộ đề, độ bao phủ và các đính chính lịch sử trọng yếu.
-# hoatrangnguyen
